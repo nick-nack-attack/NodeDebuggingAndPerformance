@@ -1,0 +1,1051 @@
+Statistical profiling result from isolate-0x110008000-3626-v8.log, (3450 ticks, 12 unaccounted, 0 excluded).
+
+ [Shared libraries]:
+   ticks  total  nonlib   name
+     49    1.4%          /usr/lib/system/libsystem_malloc.dylib
+     38    1.1%          /usr/lib/system/libsystem_platform.dylib
+     19    0.6%          /usr/lib/system/libsystem_pthread.dylib
+     17    0.5%          /usr/lib/system/libsystem_kernel.dylib
+     12    0.3%          /usr/lib/system/libsystem_c.dylib
+      4    0.1%          /usr/lib/libc++.1.dylib
+      3    0.1%          /usr/lib/libc++abi.dylib
+      1    0.0%          /usr/lib/system/libdyld.dylib
+
+ [JavaScript]:
+   ticks  total  nonlib   name
+     13    0.4%    0.4%  LazyCompile: *pp$7.readString /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/acorn/dist/acorn.js:2925:29
+     13    0.4%    0.4%  LazyCompile: *parseChar /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/character-parser/index.js:76:19
+     12    0.3%    0.4%  LazyCompile: *walkAST /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-walk/index.js:4:17
+     11    0.3%    0.3%  LazyCompile: *callLexerFunction /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-lexer/index.js:1444:31
+     10    0.3%    0.3%  LazyCompile: *pp$7.readString /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/acorn-globals/node_modules/acorn/dist/acorn.js:3182:27
+      9    0.3%    0.3%  LazyCompile: *pp$7.next /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/acorn/dist/acorn.js:2405:23
+      7    0.2%    0.2%  LazyCompile: *attribute /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-lexer/index.js:1059:22
+      7    0.2%    0.2%  LazyCompile: *advance /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-lexer/index.js:1465:20
+      6    0.2%    0.2%  LazyCompile: *toConstant /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/constantinople/lib/index.js:9:24
+      6    0.2%    0.2%  LazyCompile: *pp$7.readInt /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/acorn/dist/acorn.js:2846:26
+      5    0.1%    0.2%  LazyCompile: *pp$3.parseExprAtom /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/babylon/lib/index.js:3606:31
+      5    0.1%    0.2%  LazyCompile: *init /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/babylon/lib/index.js:517:39
+      4    0.1%    0.1%  LazyCompile: *skipThrough /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/acorn-globals/node_modules/acorn/dist/walk.js:162:21
+      4    0.1%    0.1%  LazyCompile: *pp$7.readWord1 /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/acorn/dist/acorn.js:3047:28
+      4    0.1%    0.1%  LazyCompile: *pp$7.next /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/acorn-globals/node_modules/acorn/dist/acorn.js:2676:21
+      4    0.1%    0.1%  LazyCompile: *nextToken /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/babylon/lib/index.js:753:53
+      4    0.1%    0.1%  LazyCompile: *getTokenFromCode /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/babylon/lib/index.js:1041:67
+      4    0.1%    0.1%  LazyCompile: *Parser /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/is-expression/node_modules/acorn/dist/acorn.js:432:29
+      3    0.1%    0.1%  LazyCompile: *pp$7.readWord1 /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/acorn-globals/node_modules/acorn/dist/acorn.js:3304:26
+      3    0.1%    0.1%  LazyCompile: *pp$7.readInt /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/acorn-globals/node_modules/acorn/dist/acorn.js:3102:24
+      3    0.1%    0.1%  LazyCompile: *pp$7.nextToken /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/is-expression/node_modules/acorn/dist/acorn.js:2715:26
+      3    0.1%    0.1%  LazyCompile: *pp$7.getTokenFromCode /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/acorn-globals/node_modules/acorn/dist/acorn.js:2942:33
+      3    0.1%    0.1%  LazyCompile: *pp$3.parseMaybeAssign /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/babylon/lib/index.js:3322:34
+      3    0.1%    0.1%  LazyCompile: *pp$3.parseExprOps /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/acorn/dist/acorn.js:1635:31
+      3    0.1%    0.1%  LazyCompile: *pp$3.parseExprOps /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/acorn-globals/node_modules/acorn/dist/acorn.js:1789:29
+      3    0.1%    0.1%  LazyCompile: *parseUntil /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/character-parser/index.js:47:20
+      3    0.1%    0.1%  LazyCompile: *isConstant /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/constantinople/lib/index.js:317:20
+      3    0.1%    0.1%  LazyCompile: *identifier /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/acorn-globals/index.js:127:22
+      3    0.1%    0.1%  LazyCompile: *c /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/acorn-globals/node_modules/acorn/dist/walk.js:40:15
+      3    0.1%    0.1%  LazyCompile: *buffer /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-code-gen/index.js:176:20
+      3    0.1%    0.1%  LazyCompile: *base.AssignmentExpression.base.AssignmentPattern /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/acorn-globals/node_modules/acorn/dist/walk.js:299:63
+      3    0.1%    0.1%  LazyCompile: *attributeValue /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-lexer/index.js:1151:27
+      3    0.1%    0.1%  LazyCompile: *Parser /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/babylon/lib/index.js:1563:18
+      2    0.1%    0.1%  RegExp: ^extends?\b
+      2    0.1%    0.1%  RegExp: ^(if|unless|else if|else)\b([^\n]*)
+      2    0.1%    0.1%  LazyCompile: *walk.includeDependencies /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-filters/lib/handle-filters.js:12:22
+      2    0.1%    0.1%  LazyCompile: *visitTag /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-code-gen/index.js:521:21
+      2    0.1%    0.1%  LazyCompile: *t.<computed> /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/babel-types/lib/index.js:346:36
+      2    0.1%    0.1%  LazyCompile: *stringify /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/js-stringify/index.js:4:19
+      2    0.1%    0.1%  LazyCompile: *processTicksAndRejections internal/process/task_queues.js:65:35
+      2    0.1%    0.1%  LazyCompile: *pp.eat /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/acorn/dist/acorn.js:534:20
+      2    0.1%    0.1%  LazyCompile: *pp$7.next /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/is-expression/node_modules/acorn/dist/acorn.js:2676:21
+      2    0.1%    0.1%  LazyCompile: *pp$7.getTokenFromCode /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/acorn/dist/acorn.js:2686:35
+      2    0.1%    0.1%  LazyCompile: *pp$3.parseSubscripts /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/babylon/lib/index.js:3507:33
+      2    0.1%    0.1%  LazyCompile: *pp$3.parseSubscripts /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/acorn-globals/node_modules/acorn/dist/acorn.js:1883:32
+      2    0.1%    0.1%  LazyCompile: *pp$3.parseMaybeAssign /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/acorn-globals/node_modules/acorn/dist/acorn.js:1735:33
+      2    0.1%    0.1%  LazyCompile: *pp$3.parseExprAtom /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/acorn-globals/node_modules/acorn/dist/acorn.js:1931:30
+      2    0.1%    0.1%  LazyCompile: *pp$1.parseStatement /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/acorn-globals/node_modules/acorn/dist/acorn.js:720:31
+      2    0.1%    0.1%  LazyCompile: *case /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-lexer/index.js:766:19
+      2    0.1%    0.1%  LazyCompile: *blank /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-lexer/index.js:315:18
+      2    0.1%    0.1%  LazyCompile: *advance /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-parser/index.js:69:20
+      2    0.1%    0.1%  LazyCompile: *Module._nodeModulePaths internal/modules/cjs/loader.js:575:37
+      1    0.0%    0.0%  RegExp: ^yield
+      1    0.0%    0.0%  RegExp: ^mixin +([-\w]+)(?: *\((.*)\))? *
+      1    0.0%    0.0%  RegExp: ^extends?\b {1}
+      1    0.0%    0.0%  RegExp: ^\/games\/?$
+      1    0.0%    0.0%  RegExp: ^\.([_a-z0-9\-]*[_a-z][_a-z0-9\-]*)
+      1    0.0%    0.0%  RegExp: ^\.
+      1    0.0%    0.0%  RegExp: ^-
+      1    0.0%    0.0%  RegExp: ^(break|case|catch|continue|debugger|default|do|else|finally|for|function|if|return|switch|throw|try|var|while|with|null|true|false|instanceof|typeof|void|delete|new|in|this|const|class|extends|export|import|super)$ {1}
+      1    0.0%    0.0%  RegExp: ^(break|case|catch|continue|debugger|default|do|else|finally|for|function|if|return|switch|throw|try|var|while|with|null|true|false|instanceof|typeof|void|delete|new|in|this|const|class|extends|export|import|super)$
+      1    0.0%    0.0%  RegExp: ^(\w(?:[-:\w]*\w)?)
+      1    0.0%    0.0%  RegExp: ^(Named)?Block$
+      1    0.0%    0.0%  RegExp: ^(?:each|for)\b
+      1    0.0%    0.0%  RegExp: ^&attributes\b
+      1    0.0%    0.0%  RegExp: ^#\{
+      1    0.0%    0.0%  RegExp: [ \n\t]
+      1    0.0%    0.0%  LazyCompile: *visitBlock /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-code-gen/index.js:364:23
+      1    0.0%    0.0%  LazyCompile: *tt.parenR.updateContext.tt.braceR.updateContext /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/acorn/dist/acorn.js:2330:63
+      1    0.0%    0.0%  LazyCompile: *tt.parenL.updateContext /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/acorn/dist/acorn.js:2356:37
+      1    0.0%    0.0%  LazyCompile: *tokEnd /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-lexer/index.js:134:19
+      1    0.0%    0.0%  LazyCompile: *tag /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-lexer/index.js:369:16
+      1    0.0%    0.0%  LazyCompile: *skipThrough /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/acorn/dist/walk.js:162:23
+      1    0.0%    0.0%  LazyCompile: *scanEndOfLine /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-lexer/index.js:197:27
+      1    0.0%    0.0%  LazyCompile: *resolve path.js:973:10
+      1    0.0%    0.0%  LazyCompile: *readWord1 /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/babylon/lib/index.js:1469:53
+      1    0.0%    0.0%  LazyCompile: *pp.expect /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/acorn-globals/node_modules/acorn/dist/acorn.js:616:21
+      1    0.0%    0.0%  LazyCompile: *pp$7.readNumber /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/acorn-globals/node_modules/acorn/dist/acorn.js:3131:27
+      1    0.0%    0.0%  LazyCompile: *pp$7.finishToken /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/acorn-globals/node_modules/acorn/dist/acorn.js:2828:28
+      1    0.0%    0.0%  LazyCompile: *pp$7.finishOp /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/acorn/dist/acorn.js:2759:27
+      1    0.0%    0.0%  LazyCompile: *pp$6.updateContext /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/acorn/dist/acorn.js:2318:32
+      1    0.0%    0.0%  LazyCompile: *pp$6.processComment /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/babylon/lib/index.js:4498:32
+      1    0.0%    0.0%  LazyCompile: *pp$3.parseSubscripts /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/acorn/dist/acorn.js:1721:34
+      1    0.0%    0.0%  LazyCompile: *pp$3.parseMaybeUnary /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/acorn-globals/node_modules/acorn/dist/acorn.js:1828:32
+      1    0.0%    0.0%  LazyCompile: *pp$3.parseMaybeAssign /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/acorn/dist/acorn.js:1586:35
+      1    0.0%    0.0%  LazyCompile: *pp$3.parseIdent /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/is-expression/node_modules/acorn/dist/acorn.js:2429:27
+      1    0.0%    0.0%  LazyCompile: *pp$3.parseExprSubscripts /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/is-expression/node_modules/acorn/dist/acorn.js:1870:36
+      1    0.0%    0.0%  LazyCompile: *pp$3.parseExprSubscripts /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/acorn-globals/node_modules/acorn/dist/acorn.js:1870:36
+      1    0.0%    0.0%  LazyCompile: *pp$3.parseExprAtom /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/acorn/dist/acorn.js:1759:32
+      1    0.0%    0.0%  LazyCompile: *pp$1.parseTopLevel /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/acorn-globals/node_modules/acorn/dist/acorn.js:666:30
+      1    0.0%    0.0%  LazyCompile: *pp$1.parseStatement /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/acorn/dist/acorn.js:675:33
+      1    0.0%    0.0%  LazyCompile: *peek /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-parser/index.js:80:17
+      1    0.0%    0.0%  LazyCompile: *normalizeString path.js:52:25
+      1    0.0%    0.0%  LazyCompile: *nextTick internal/process/task_queues.js:101:18
+      1    0.0%    0.0%  LazyCompile: *mixinBlock /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-lexer/index.js:705:23
+      1    0.0%    0.0%  LazyCompile: *mixin /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-lexer/index.js:876:18
+      1    0.0%    0.0%  LazyCompile: *interpolation /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-lexer/index.js:347:26
+      1    0.0%    0.0%  LazyCompile: *ignore /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/acorn-globals/node_modules/acorn/dist/walk.js:163:16
+      1    0.0%    0.0%  LazyCompile: *id /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-lexer/index.js:419:15
+      1    0.0%    0.0%  LazyCompile: *finishToken /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/babylon/lib/index.js:888:57
+      1    0.0%    0.0%  LazyCompile: *finishNodeAt /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/acorn-globals/node_modules/acorn/dist/acorn.js:2527:22
+      1    0.0%    0.0%  LazyCompile: *filter /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-lexer/index.js:387:19
+      1    0.0%    0.0%  LazyCompile: *endInterpolation /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-lexer/index.js:455:30
+      1    0.0%    0.0%  LazyCompile: *doctype /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-lexer/index.js:407:20
+      1    0.0%    0.0%  LazyCompile: *dirname path.js:1127:10
+      1    0.0%    0.0%  LazyCompile: *consume /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-lexer/index.js:172:20
+      1    0.0%    0.0%  LazyCompile: *compileAttrs /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-attrs/index.js:22:22
+      1    0.0%    0.0%  LazyCompile: *call /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-lexer/index.js:828:17
+      1    0.0%    0.0%  LazyCompile: *base.Program.base.BlockStatement /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/acorn-globals/node_modules/acorn/dist/walk.js:169:47
+      1    0.0%    0.0%  LazyCompile: *base.Pattern /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/acorn-globals/node_modules/acorn/dist/walk.js:253:25
+      1    0.0%    0.0%  LazyCompile: *base.NewExpression.base.CallExpression /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/acorn/dist/walk.js:308:55
+      1    0.0%    0.0%  LazyCompile: *base.ExpressionStatement.base.ParenthesizedExpression /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/acorn-globals/node_modules/acorn/dist/walk.js:176:12
+      1    0.0%    0.0%  LazyCompile: *base.BinaryExpression.base.LogicalExpression /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/acorn/dist/walk.js:295:61
+      1    0.0%    0.0%  LazyCompile: *base.BinaryExpression.base.LogicalExpression /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/acorn-globals/node_modules/acorn/dist/walk.js:295:59
+      1    0.0%    0.0%  LazyCompile: *addAttribute /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-attrs/index.js:46:24
+      1    0.0%    0.0%  LazyCompile: *<anonymous> /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-strip-comments/index.js:28:32
+      1    0.0%    0.0%  LazyCompile: *<anonymous> /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-load/index.js:13:29
+
+ [C++]:
+   ticks  total  nonlib   name
+   1859   53.9%   56.2%  T __ZN2v88internal8Compiler30GetSharedFunctionInfoForScriptEPNS0_7IsolateENS0_6HandleINS0_6StringEEERKNS1_13ScriptDetailsENS_19ScriptOriginOptionsEPNS_9ExtensionEPNS0_10ScriptDataENS_14ScriptCompiler14CompileOptionsENSF_13NoCacheReasonENS0_11NativesFlagE
+    476   13.8%   14.4%  t __ZN4node2fsL4ReadERKN2v820FunctionCallbackInfoINS1_5ValueEEE
+    120    3.5%    3.6%  T _host_get_clock_service
+     98    2.8%    3.0%  t __ZN4node2fsL22InternalModuleReadJSONERKN2v820FunctionCallbackInfoINS1_5ValueEEE
+     83    2.4%    2.5%  T __ZN4node10contextify17ContextifyContext15CompileFunctionERKN2v820FunctionCallbackInfoINS2_5ValueEEE
+     41    1.2%    1.2%  T __ZN4node13native_module15NativeModuleEnv15CompileFunctionERKN2v820FunctionCallbackInfoINS2_5ValueEEE
+     38    1.1%    1.1%  t __ZN4node2fsL18InternalModuleStatERKN2v820FunctionCallbackInfoINS1_5ValueEEE
+     38    1.1%    1.1%  T _mach_port_get_attributes
+     29    0.8%    0.9%  t __ZN4node2fsL4OpenERKN2v820FunctionCallbackInfoINS1_5ValueEEE
+     25    0.7%    0.8%  T _mach_make_memory_entry_64
+     25    0.7%    0.8%  T _getentropy
+     16    0.5%    0.5%  T __ZN4node7TCPWrap7ConnectERKN2v820FunctionCallbackInfoINS1_5ValueEEE
+     15    0.4%    0.5%  t __ZN2v88internal12StringHasher20HashSequentialStringIhEEjPKT_iy
+     11    0.3%    0.3%  t __ZN2v88internal12_GLOBAL__N_116Fast_ArrayConcatEPNS0_7IsolateEPNS0_16BuiltinArgumentsE
+     11    0.3%    0.3%  T _host_request_notification
+      7    0.2%    0.2%  T __ZN4node10StreamBase8JSMethodIXadL_ZNS0_6WritevERKN2v820FunctionCallbackInfoINS2_5ValueEEEEEEEvS7_
+      6    0.2%    0.2%  t __ZN4node6Buffer12_GLOBAL__N_111StringSliceILNS_8encodingE1EEEvRKN2v820FunctionCallbackInfoINS4_5ValueEEE
+      6    0.2%    0.2%  T ___sysctl
+      5    0.1%    0.2%  t __ZN4node2fsL5LStatERKN2v820FunctionCallbackInfoINS1_5ValueEEE
+      5    0.1%    0.2%  t __ZN2v88internalL24Builtin_Impl_ArrayConcatENS0_16BuiltinArgumentsEPNS0_7IsolateE
+      5    0.1%    0.2%  t __ZN2v88internal6String7FlattenEPNS0_7IsolateENS0_6HandleIS1_EENS0_14AllocationTypeE
+      5    0.1%    0.2%  T __ZN4node2fs5CloseERKN2v820FunctionCallbackInfoINS1_5ValueEEE
+      4    0.1%    0.1%  t __ZN4node12_GLOBAL__N_16Parser7ExecuteERKN2v820FunctionCallbackInfoINS2_5ValueEEE
+      4    0.1%    0.1%  t __ZN2v88internal12StringHasher20HashSequentialStringItEEjPKT_iy
+      4    0.1%    0.1%  T _task_policy_set
+      3    0.1%    0.1%  t __ZNSt3__124__put_character_sequenceIcNS_11char_traitsIcEEEERNS_13basic_ostreamIT_T0_EES7_PKS4_m
+      3    0.1%    0.1%  t __ZN4node12_GLOBAL__N_16Parser10InitializeERKN2v820FunctionCallbackInfoINS2_5ValueEEE
+      3    0.1%    0.1%  t __ZN2v88internal25FunctionCallbackArguments4CallENS0_15CallHandlerInfoE
+      3    0.1%    0.1%  t __ZN2v88internal11StringShape33DispatchToSpecificTypeWithoutCastIZNS1_22DispatchToSpecificTypeIZNS0_6String3GetEiE19StringGetDispatchertJRiEEET0_S4_DpOT1_E17CastingDispatchertJRS4_S6_EEES7_SA_
+      3    0.1%    0.1%  T __ZN4node7binding18GetInternalBindingERKN2v820FunctionCallbackInfoINS1_5ValueEEE
+      3    0.1%    0.1%  T __ZN4node7TTYWrap3NewERKN2v820FunctionCallbackInfoINS1_5ValueEEE
+      3    0.1%    0.1%  T __ZN4node6crypto11RandomBytesERKN2v820FunctionCallbackInfoINS1_5ValueEEE
+      3    0.1%    0.1%  T __ZN2v88internal20Builtin_ArrayUnshiftEiPmPNS0_7IsolateE
+      2    0.1%    0.1%  t __ZNSt3__16__treeIjNS_4lessIjEEN2v88internal13ZoneAllocatorIjEEE7destroyEPNS_11__tree_nodeIjPvEE
+      2    0.1%    0.1%  t __ZNSt3__116__pad_and_outputIcNS_11char_traitsIcEEEENS_19ostreambuf_iteratorIT_T0_EES6_PKS4_S8_S8_RNS_8ios_baseES4_
+      2    0.1%    0.1%  t __ZN4nodeL9EnvGetterEN2v85LocalINS0_4NameEEERKNS0_20PropertyCallbackInfoINS0_5ValueEEE
+      2    0.1%    0.1%  t __ZN4node6Buffer12_GLOBAL__N_111StringWriteILNS_8encodingE1EEEvRKN2v820FunctionCallbackInfoINS4_5ValueEEE
+      2    0.1%    0.1%  t __ZN4node2fsL5FStatERKN2v820FunctionCallbackInfoINS1_5ValueEEE
+      2    0.1%    0.1%  t __ZN4node2fsL4StatERKN2v820FunctionCallbackInfoINS1_5ValueEEE
+      2    0.1%    0.1%  t __ZN2v88internal19SequentialStringKeyIhE7IsMatchENS0_6StringE
+      2    0.1%    0.1%  T _vm_copy
+      2    0.1%    0.1%  T __ZN4node7TCPWrap3NewERKN2v820FunctionCallbackInfoINS1_5ValueEEE
+      2    0.1%    0.1%  T __ZN4node10StreamBase8JSMethodIXadL_ZNS0_11WriteBufferERKN2v820FunctionCallbackInfoINS2_5ValueEEEEEEEvS7_
+      1    0.0%    0.0%  t __ZNSt3__16__treeImNS_4lessImEENS_9allocatorImEEE7destroyEPNS_11__tree_nodeImPvEE
+      1    0.0%    0.0%  t __ZNSt3__112__hash_tableIPvNS_4hashIS1_EENS_8equal_toIS1_EENS_9allocatorIS1_EEE4findIS1_EENS_15__hash_iteratorIPNS_11__hash_nodeIS1_S1_EEEERKT_
+      1    0.0%    0.0%  t __ZNSt3__112__hash_tableINS_17__hash_value_typeIN4node13FastStringKeyENS2_17BaseObjectPtrImplINS2_10BaseObjectELb0EEEEENS_22__unordered_map_hasherIS3_S7_NS3_4HashELb1EEENS_21__unordered_map_equalIS3_S7_NS_8equal_toIS3_EELb1EEENS_9allocatorIS7_EEE4findIS3_EENS_15__hash_iteratorIPNS_11__hash_nodeIS7_PvEEEERKT_
+      1    0.0%    0.0%  t __ZNK2v88internal10ScopedListIPNS0_9StatementEPvE6CopyToEPNS0_8ZoneListIS3_EEPNS0_4ZoneE
+      1    0.0%    0.0%  t __ZN4node6Buffer12_GLOBAL__N_111StringWriteILNS_8encodingE5EEEvRKN2v820FunctionCallbackInfoINS4_5ValueEEE
+      1    0.0%    0.0%  t __ZN4node10cares_wrap12_GLOBAL__N_111ChannelWrap3NewERKN2v820FunctionCallbackInfoINS3_5ValueEEE
+      1    0.0%    0.0%  t __ZN2v88internalL35Builtin_Impl_NumberPrototypeToFixedENS0_16BuiltinArgumentsEPNS0_7IsolateE
+      1    0.0%    0.0%  t __ZN2v88internalL26Builtin_Impl_HandleApiCallENS0_16BuiltinArgumentsEPNS0_7IsolateE
+      1    0.0%    0.0%  t __ZN2v88internal9CopyCharsIhtEEvPT0_PKT_m
+      1    0.0%    0.0%  t __ZN2v88internal19SequentialStringKeyItE7IsMatchENS0_6StringE
+      1    0.0%    0.0%  t __ZN2v88internal14LookupIteratorC2EPNS0_7IsolateENS0_6HandleINS0_6ObjectEEENS4_INS0_4NameEEEmNS4_INS0_10JSReceiverEEENS1_13ConfigurationE
+      1    0.0%    0.0%  t __ZN2v88internal12_GLOBAL__N_119HandleApiCallHelperILb0EEENS0_11MaybeHandleINS0_6ObjectEEEPNS0_7IsolateENS0_6HandleINS0_10HeapObjectEEESA_NS8_INS0_20FunctionTemplateInfoEEENS8_IS4_EENS0_16BuiltinArgumentsE
+      1    0.0%    0.0%  t __ZN2v84base19TemplateHashMapImplIPvS2_NS0_26HashEqualityThenKeyMatcherIS2_PFbS2_S2_EEENS0_23DefaultAllocationPolicyEE14LookupOrInsertIZNS8_14LookupOrInsertERKS2_jS7_EUlvE_EEPNS0_20TemplateHashMapEntryIS2_S2_EESB_jRKT_S7_
+      1    0.0%    0.0%  t __ZN2v812_GLOBAL__N_114CallDepthScopeILb1EEC1EPNS_8internal7IsolateENS_5LocalINS_7ContextEEE
+      1    0.0%    0.0%  t __ZN2v812_GLOBAL__N_114CallDepthScopeILb0EEC1EPNS_8internal7IsolateENS_5LocalINS_7ContextEEE
+      1    0.0%    0.0%  T _proc_pidoriginatorinfo
+      1    0.0%    0.0%  T _listxattr
+      1    0.0%    0.0%  T __kernelrpc_vm_remap
+      1    0.0%    0.0%  T __ZNK2v88internal7Literal10BuildValueINS0_7IsolateEEENS0_6HandleINS0_6ObjectEEEPT_
+      1    0.0%    0.0%  T __ZN4node6crypto4Hmac8HmacInitERKN2v820FunctionCallbackInfoINS2_5ValueEEE
+      1    0.0%    0.0%  T __ZN4node6crypto4Hash3NewERKN2v820FunctionCallbackInfoINS2_5ValueEEE
+      1    0.0%    0.0%  T __ZN4node22PerIsolatePlatformData23GetForegroundTaskRunnerEv
+      1    0.0%    0.0%  T __ZN4node14ConnectionWrapINS_7TCPWrapE8uv_tcp_sEC2EPNS_11EnvironmentEN2v85LocalINS6_6ObjectEEENS_9AsyncWrap12ProviderTypeE
+      1    0.0%    0.0%  T __ZN4node10StreamBase8JSMethodIXadL_ZNS0_11WriteStringILNS_8encodingE4EEEiRKN2v820FunctionCallbackInfoINS4_5ValueEEEEEEEvS9_
+      1    0.0%    0.0%  T __ZN4node10StreamBase8JSMethodIXadL_ZNS0_11WriteStringILNS_8encodingE1EEEiRKN2v820FunctionCallbackInfoINS4_5ValueEEEEEEEvS9_
+      1    0.0%    0.0%  T __ZN4node10StreamBase8JSMethodIXadL_ZNS0_10ReadStopJSERKN2v820FunctionCallbackInfoINS2_5ValueEEEEEEEvS7_
+      1    0.0%    0.0%  T __ZN2v88internal9Accessors23FunctionPrototypeGetterENS_5LocalINS_4NameEEERKNS_20PropertyCallbackInfoINS_5ValueEEE
+      1    0.0%    0.0%  T __ZN2v88internal8Compiler7CompileENS0_6HandleINS0_18SharedFunctionInfoEEENS1_18ClearExceptionFlagEPNS0_15IsCompiledScopeE
+      1    0.0%    0.0%  T __ZN2v88internal8Compiler7CompileENS0_6HandleINS0_10JSFunctionEEENS1_18ClearExceptionFlagEPNS0_15IsCompiledScopeE
+      1    0.0%    0.0%  T __ZN2v88internal8Compiler30GetFunctionFromValidatedStringENS0_6HandleINS0_7ContextEEENS0_11MaybeHandleINS0_6StringEEENS0_16ParseRestrictionEi
+      1    0.0%    0.0%  T __ZN2v88internal8Builtins4nameEi
+      1    0.0%    0.0%  T __ZN2v88internal5ScopeC2EPNS0_4ZoneEPS1_NS0_9ScopeTypeE
+      1    0.0%    0.0%  T __ZN2v88internal5Scope28AllocateVariablesRecursivelyEv
+      1    0.0%    0.0%  T __ZN2v88internal25PropertyCallbackArgumentsC1EPNS0_7IsolateENS0_6ObjectES4_NS0_8JSObjectENS_5MaybeINS0_11ShouldThrowEEE
+      1    0.0%    0.0%  T __ZN2v88internal22CompilationCacheRegExp6LookupENS0_6HandleINS0_6StringEEENS_4base5FlagsINS0_8JSRegExp4FlagEiEE
+      1    0.0%    0.0%  T __ZN2v88internal16DeclarationScope31CheckConflictingVarDeclarationsEPb
+      1    0.0%    0.0%  T __ZN2v88internal13AssemblerBaseD2Ev
+      1    0.0%    0.0%  T __ZN2v88internal12AstRawString7CompareEPvS2_
+      1    0.0%    0.0%  T __ZN2v87Isolate9InContextEv
+
+ [Summary]:
+   ticks  total  nonlib   name
+    276    8.0%    8.3%  JavaScript
+   3019   87.5%   91.3%  C++
+    180    5.2%    5.4%  GC
+    143    4.1%          Shared libraries
+     12    0.3%          Unaccounted
+
+ [C++ entry points]:
+   ticks    cpp   total   name
+   1604   56.9%   46.5%  T __ZN2v88internal8Compiler30GetSharedFunctionInfoForScriptEPNS0_7IsolateENS0_6HandleINS0_6StringEEERKNS1_13ScriptDetailsENS_19ScriptOriginOptionsEPNS_9ExtensionEPNS0_10ScriptDataENS_14ScriptCompiler14CompileOptionsENSF_13NoCacheReasonENS0_11NativesFlagE
+    847   30.0%   24.6%  T __ZN2v88internal21Builtin_HandleApiCallEiPmPNS0_7IsolateE
+    102    3.6%    3.0%  T __ZN2v88internal17Builtin_JsonParseEiPmPNS0_7IsolateE
+     94    3.3%    2.7%  T __ZN2v88internal19Builtin_ArrayConcatEiPmPNS0_7IsolateE
+     82    2.9%    2.4%  T __ZN2v88internal21Builtin_JsonStringifyEiPmPNS0_7IsolateE
+     29    1.0%    0.8%  T __ZN2v88internal24Builtin_ErrorConstructorEiPmPNS0_7IsolateE
+     25    0.9%    0.7%  T _getentropy
+     20    0.7%    0.6%  T __ZN2v88internal27Builtin_FunctionConstructorEiPmPNS0_7IsolateE
+      9    0.3%    0.3%  T __ZN2v88internal20Builtin_ArrayUnshiftEiPmPNS0_7IsolateE
+      2    0.1%    0.1%  T __ZN2v88internal23Builtin_DateConstructorEiPmPNS0_7IsolateE
+      1    0.0%    0.0%  t __ZNSt3__112__hash_tableINS_17__hash_value_typeIN4node13FastStringKeyENS2_17BaseObjectPtrImplINS2_10BaseObjectELb0EEEEENS_22__unordered_map_hasherIS3_S7_NS3_4HashELb1EEENS_21__unordered_map_equalIS3_S7_NS_8equal_toIS3_EELb1EEENS_9allocatorIS7_EEE4findIS3_EENS_15__hash_iteratorIPNS_11__hash_nodeIS7_PvEEEERKT_
+      1    0.0%    0.0%  T _proc_pidoriginatorinfo
+      1    0.0%    0.0%  T __ZN2v88internal32Builtin_DatePrototypeToISOStringEiPmPNS0_7IsolateE
+      1    0.0%    0.0%  T __ZN2v88internal30Builtin_NumberPrototypeToFixedEiPmPNS0_7IsolateE
+      1    0.0%    0.0%  T __ZN2v88internal20Builtin_ObjectFreezeEiPmPNS0_7IsolateE
+      1    0.0%    0.0%  T __ZN2v88internal16Builtin_ArrayPopEiPmPNS0_7IsolateE
+
+ [Bottom up (heavy) profile]:
+  Note: percentage shows a share of a particular caller in the total
+  amount of its parent calls.
+  Callers occupying less than 1.0% are not shown.
+
+   ticks parent  name
+   1859   53.9%  T __ZN2v88internal8Compiler30GetSharedFunctionInfoForScriptEPNS0_7IsolateENS0_6HandleINS0_6StringEEERKNS1_13ScriptDetailsENS_19ScriptOriginOptionsEPNS_9ExtensionEPNS0_10ScriptDataENS_14ScriptCompiler14CompileOptionsENSF_13NoCacheReasonENS0_11NativesFlagE
+    507   27.3%    T __ZN2v88internal8Compiler30GetSharedFunctionInfoForScriptEPNS0_7IsolateENS0_6HandleINS0_6StringEEERKNS1_13ScriptDetailsENS_19ScriptOriginOptionsEPNS_9ExtensionEPNS0_10ScriptDataENS_14ScriptCompiler14CompileOptionsENSF_13NoCacheReasonENS0_11NativesFlagE
+     83   16.4%      T __ZN2v88internal8Compiler30GetSharedFunctionInfoForScriptEPNS0_7IsolateENS0_6HandleINS0_6StringEEERKNS1_13ScriptDetailsENS_19ScriptOriginOptionsEPNS_9ExtensionEPNS0_10ScriptDataENS_14ScriptCompiler14CompileOptionsENSF_13NoCacheReasonENS0_11NativesFlagE
+     34   41.0%        LazyCompile: ~unwrapReturns /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/with/index.js:73:23
+     34  100.0%          LazyCompile: ~addWith /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/with/index.js:24:17
+     34  100.0%            LazyCompile: ~compile /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-code-gen/index.js:106:20
+     19   22.9%        LazyCompile: *Parser /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/is-expression/node_modules/acorn/dist/acorn.js:432:29
+     10   52.6%          LazyCompile: *isExpression /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/is-expression/index.js:14:22
+     10  100.0%            LazyCompile: ~isExpression /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-lexer/index.js:67:26
+      9   47.4%          LazyCompile: ~isExpression /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/is-expression/index.js:14:22
+      9  100.0%            LazyCompile: ~isExpression /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-lexer/index.js:67:26
+      2    2.4%        LazyCompile: ~visitMixin /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-code-gen/index.js:423:23
+      1   50.0%          LazyCompile: *visitBlock /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-code-gen/index.js:364:23
+      1  100.0%            LazyCompile: *visit /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-code-gen/index.js:251:18
+      1   50.0%          LazyCompile: *visit /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-code-gen/index.js:251:18
+      1  100.0%            LazyCompile: ~visitBlock /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-code-gen/index.js:364:23
+      2    2.4%        LazyCompile: ~keywordRegexp /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/acorn-globals/node_modules/acorn/dist/acorn.js:428:23
+      2  100.0%          LazyCompile: ~Parser /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/acorn-globals/node_modules/acorn/dist/acorn.js:432:29
+      2  100.0%            LazyCompile: ~parse /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/acorn-globals/node_modules/acorn/dist/acorn.js:3377:15
+      2    2.4%        LazyCompile: *<anonymous> /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-load/index.js:13:29
+      2  100.0%          LazyCompile: *walkAST /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-walk/index.js:4:17
+      2  100.0%            LazyCompile: *walkAST /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-walk/index.js:4:17
+      1    1.2%        LazyCompile: ~stat internal/modules/cjs/loader.js:132:14
+      1  100.0%          LazyCompile: ~Module._findPath internal/modules/cjs/loader.js:444:28
+      1  100.0%            LazyCompile: ~Module._resolveFilename internal/modules/cjs/loader.js:796:35
+      1    1.2%        LazyCompile: ~serialize /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/cookie/index.js:101:19
+      1  100.0%          LazyCompile: ~setcookie /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/express-session/index.js:634:19
+      1  100.0%            LazyCompile: ~<anonymous> /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/express-session/index.js:219:28
+      1    1.2%        LazyCompile: ~scanEndOfLine /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-lexer/index.js:197:27
+      1  100.0%          LazyCompile: ~when /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-lexer/index.js:784:17
+      1  100.0%            LazyCompile: ~callLexerFunction /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-lexer/index.js:1444:31
+      1    1.2%        LazyCompile: ~readInt /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/babylon/lib/index.js:1199:49
+      1  100.0%          LazyCompile: ~readHexChar /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/babylon/lib/index.js:1449:57
+      1  100.0%            LazyCompile: ~readCodePoint /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/babylon/lib/index.js:1279:61
+      1    1.2%        LazyCompile: ~pug_escape /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-runtime/index.js:188:20
+      1  100.0%          LazyCompile: ~pug_attr /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-runtime/index.js:128:18
+      1  100.0%            LazyCompile: ~addAttribute /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-attrs/index.js:46:24
+      1    1.2%        LazyCompile: ~parse /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/content-type/index.js:106:16
+      1  100.0%          LazyCompile: ~setCharset /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/express/lib/utils.js:250:41
+      1  100.0%            LazyCompile: ~send /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/express/lib/response.js:107:25
+      1    1.2%        LazyCompile: ~module.exports /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/escape-string-regexp/index.js:5:27
+      1  100.0%          Eval: ~<anonymous> /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/chalk/index.js:1:1
+      1  100.0%            LazyCompile: ~Module._compile internal/modules/cjs/loader.js:1017:37
+      1    1.2%        LazyCompile: ~match /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/express/lib/router/layer.js:110:39
+      1  100.0%          LazyCompile: ~matchLayer /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/express/lib/router/index.js:572:20
+      1  100.0%            LazyCompile: ~next /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/express/lib/router/index.js:176:16
+      1    1.2%        LazyCompile: ~isIPv6 internal/net.js:34:16
+      1  100.0%          LazyCompile: ~isIP internal/net.js:38:14
+      1  100.0%            LazyCompile: ~calculateServerName _http_agent.js:328:29
+      1    1.2%        LazyCompile: ~inherits /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/babylon/lib/index.js:164:25
+      1  100.0%          LazyCompile: ~<anonymous> /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/babylon/lib/index.js:240:33
+      1  100.0%            Eval: ~<anonymous> /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/babylon/lib/index.js:1:1
+      1    1.2%        LazyCompile: ~header /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/express/lib/response.js:750:29
+      1  100.0%          LazyCompile: ~contentType /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/express/lib/response.js:590:32
+      1  100.0%            LazyCompile: ~send /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/express/lib/response.js:107:25
+      1    1.2%        LazyCompile: ~getPoolSettings /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/knex/lib/client.js:262:44
+      1  100.0%          LazyCompile: ~initializePool /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/knex/lib/client.js:314:42
+      1  100.0%            LazyCompile: ~Client /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/knex/lib/client.js:101:16
+      1    1.2%        LazyCompile: ~entitytag /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/etag/index.js:39:20
+      1  100.0%          LazyCompile: ~etag /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/etag/index.js:70:15
+      1  100.0%            LazyCompile: ~generateETag /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/express/lib/utils.js:275:32
+      1    1.2%        LazyCompile: ~compileAttrs /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-attrs/index.js:22:22
+      1  100.0%          LazyCompile: ~attrs /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-code-gen/index.js:797:18
+      1  100.0%            LazyCompile: ~visitAttributes /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-code-gen/index.js:777:28
+      1    1.2%        LazyCompile: ~checkInvalidHeaderChar _http_common.js:230:32
+      1  100.0%          LazyCompile: ~<anonymous> _http_outgoing.js:546:45
+      1  100.0%            LazyCompile: *hidden internal/errors.js:286:25
+      1    1.2%        LazyCompile: ~check /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/tarn/lib/Pool.js:147:8
+      1  100.0%          LazyCompile: ~<anonymous> /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/tarn/lib/Pool.js:335:35
+      1  100.0%            LazyCompile: ~listOnTimeout internal/timers.js:502:25
+      1    1.2%        LazyCompile: ~calculateServerName _http_agent.js:328:29
+      1  100.0%          LazyCompile: ~addRequest _http_agent.js:225:49
+      1  100.0%            LazyCompile: ~ClientRequest _http_client.js:89:23
+      1    1.2%        LazyCompile: ~buffer /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-code-gen/index.js:176:20
+      1  100.0%          LazyCompile: ~visitTag /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-code-gen/index.js:521:21
+      1  100.0%            LazyCompile: ~visitNode /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-code-gen/index.js:307:22
+      1    1.2%        LazyCompile: ~_addHeaderLine _http_incoming.js:263:24
+      1  100.0%          LazyCompile: ~_addHeaderLines _http_incoming.js:129:25
+      1  100.0%            LazyCompile: ~parserOnHeadersComplete _http_common.js:75:33
+      1    1.2%        LazyCompile: ~<anonymous> internal/per_context/primordials.js:23:10
+      1  100.0%          LazyCompile: ~readPackageScope internal/modules/cjs/loader.js:271:26
+      1  100.0%            LazyCompile: ~trySelf internal/modules/cjs/loader.js:391:17
+      1    1.2%        LazyCompile: *stringify /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/js-stringify/index.js:4:19
+      1  100.0%          LazyCompile: ~addAttribute /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-attrs/index.js:46:24
+      1  100.0%            LazyCompile: ~<anonymous> /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-attrs/index.js:75:25
+      1    1.2%        LazyCompile: *<anonymous> internal/per_context/primordials.js:23:10
+      1  100.0%          LazyCompile: ~readPackageScope internal/modules/cjs/loader.js:271:26
+      1  100.0%            LazyCompile: ~trySelf internal/modules/cjs/loader.js:391:17
+      1    1.2%        Eval: ~<anonymous> /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/tough-cookie/lib/cookie.js:1:1
+      1  100.0%          LazyCompile: ~Module._compile internal/modules/cjs/loader.js:1017:37
+      1  100.0%            LazyCompile: ~Module._extensions..js internal/modules/cjs/loader.js:1072:37
+      1    1.2%        Eval: ~<anonymous> /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/express/lib/express.js:1:1
+      1  100.0%          LazyCompile: ~Module._compile internal/modules/cjs/loader.js:1017:37
+      1  100.0%            LazyCompile: ~Module._extensions..js internal/modules/cjs/loader.js:1072:37
+     50    9.9%      LazyCompile: *parseChar /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/character-parser/index.js:76:19
+     25   50.0%        LazyCompile: *parseUntil /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/character-parser/index.js:47:20
+     19   76.0%          LazyCompile: ~bracketExpression /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-lexer/index.js:233:30
+     11   57.9%            LazyCompile: ~attrs /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-lexer/index.js:1265:18
+      5   26.3%            LazyCompile: *call /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-lexer/index.js:828:17
+      3   15.8%            LazyCompile: ~call /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-lexer/index.js:828:17
+      6   24.0%          LazyCompile: *attrs /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-lexer/index.js:1265:18
+      6  100.0%            LazyCompile: *callLexerFunction /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-lexer/index.js:1444:31
+     14   28.0%        LazyCompile: *parse /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/character-parser/index.js:28:15
+      9   64.3%          LazyCompile: *attrs /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-lexer/index.js:1265:18
+      9  100.0%            LazyCompile: *callLexerFunction /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-lexer/index.js:1444:31
+      5   35.7%          LazyCompile: ~assertNestingCorrect /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-lexer/index.js:91:34
+      5  100.0%            LazyCompile: ~attrs /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-lexer/index.js:1265:18
+      7   14.0%        LazyCompile: *attributeValue /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-lexer/index.js:1151:27
+      7  100.0%          LazyCompile: *attribute /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-lexer/index.js:1059:22
+      5   71.4%            LazyCompile: *attrs /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-lexer/index.js:1265:18
+      2   28.6%            LazyCompile: ~attrs /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-lexer/index.js:1265:18
+      2    4.0%        LazyCompile: ~parseUntil /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/character-parser/index.js:47:20
+      2  100.0%          LazyCompile: ~bracketExpression /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-lexer/index.js:233:30
+      1   50.0%            LazyCompile: ~call /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-lexer/index.js:828:17
+      1   50.0%            LazyCompile: ~attrs /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-lexer/index.js:1265:18
+      2    4.0%        LazyCompile: *addText /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-lexer/index.js:462:21
+      1   50.0%          LazyCompile: ~text /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-lexer/index.js:574:17
+      1  100.0%            LazyCompile: *callLexerFunction /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-lexer/index.js:1444:31
+      1   50.0%          LazyCompile: *addText /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-lexer/index.js:462:21
+      1  100.0%            LazyCompile: ~text /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-lexer/index.js:574:17
+     19    3.7%      LazyCompile: *Parser /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/is-expression/node_modules/acorn/dist/acorn.js:432:29
+     14   73.7%        LazyCompile: *isExpression /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/is-expression/index.js:14:22
+     14  100.0%          LazyCompile: ~isExpression /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-lexer/index.js:67:26
+     10   71.4%            LazyCompile: *callLexerFunction /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-lexer/index.js:1444:31
+      4   28.6%            LazyCompile: *attributeValue /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-lexer/index.js:1151:27
+      5   26.3%        LazyCompile: ~isExpression /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/is-expression/index.js:14:22
+      5  100.0%          LazyCompile: ~isExpression /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-lexer/index.js:67:26
+      3   60.0%            LazyCompile: *callLexerFunction /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-lexer/index.js:1444:31
+      2   40.0%            LazyCompile: *attributeValue /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-lexer/index.js:1151:27
+     11    2.2%      LazyCompile: *nextToken /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/babylon/lib/index.js:753:53
+      9   81.8%        LazyCompile: *isConstant /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/constantinople/lib/index.js:317:20
+      5   55.6%          LazyCompile: ~isConstant /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-attrs/index.js:8:20
+      5  100.0%            LazyCompile: ~addAttribute /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-attrs/index.js:46:24
+      3   33.3%          LazyCompile: *addAttribute /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-attrs/index.js:46:24
+      2   66.7%            LazyCompile: *compileAttrs /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-attrs/index.js:22:22
+      1   33.3%            LazyCompile: ~<anonymous> /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-attrs/index.js:75:25
+      1   11.1%          LazyCompile: *isConstant /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-attrs/index.js:8:20
+      1  100.0%            LazyCompile: ~addAttribute /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-attrs/index.js:46:24
+      1    9.1%        LazyCompile: ~pp$3.getExpression /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/babylon/lib/index.js:3279:31
+      1  100.0%          LazyCompile: ~parseExpression /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/babylon/lib/index.js:7308:25
+      1  100.0%            LazyCompile: ~isConstant /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/constantinople/lib/index.js:317:20
+      1    9.1%        LazyCompile: ~next /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/babylon/lib/index.js:682:43
+      1  100.0%          LazyCompile: ~eat /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/babylon/lib/index.js:696:41
+      1  100.0%            LazyCompile: ~pp.expect /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/babylon/lib/index.js:1748:22
+      8    1.6%      LazyCompile: *callLexerFunction /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-lexer/index.js:1444:31
+      8  100.0%        LazyCompile: *advance /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-lexer/index.js:1465:20
+      5   62.5%          LazyCompile: *getTokens /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-lexer/index.js:1510:23
+      5  100.0%            LazyCompile: ~lex /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-lexer/index.js:10:13
+      3   37.5%          LazyCompile: *callLexerFunction /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-lexer/index.js:1444:31
+      3  100.0%            LazyCompile: ~getTokens /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-lexer/index.js:1510:23
+      7    1.4%      LazyCompile: ~getOptions internal/fs/utils.js:284:20
+      7  100.0%        LazyCompile: ~readFileSync fs.js:374:22
+      3   42.9%          LazyCompile: ~read /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-load/index.js:68:26
+      3  100.0%            LazyCompile: ~read /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug/lib/index.js:137:20
+      3   42.9%          LazyCompile: ~Module._extensions..js internal/modules/cjs/loader.js:1072:37
+      3  100.0%            LazyCompile: ~Module.load internal/modules/cjs/loader.js:916:33
+      1   14.3%          LazyCompile: ~handleTemplateCache /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug/lib/index.js:209:30
+      1  100.0%            LazyCompile: ~exports.renderFile /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug/lib/index.js:409:30
+      7    1.4%      LazyCompile: ~createSocket _http_agent.js:296:53
+      7  100.0%        LazyCompile: ~addRequest _http_agent.js:225:49
+      7  100.0%          LazyCompile: ~ClientRequest _http_client.js:89:23
+      7  100.0%            LazyCompile: ~request http.js:49:17
+      7    1.4%      LazyCompile: ~compile /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-code-gen/index.js:106:20
+      7  100.0%        LazyCompile: ~generateCode /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-code-gen/index.js:31:22
+      7  100.0%          LazyCompile: ~compileBody /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug/lib/index.js:81:21
+      7  100.0%            LazyCompile: ~exports.compile /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug/lib/index.js:237:27
+     92    4.9%    T __ZN2v88internal17Builtin_JsonParseEiPmPNS0_7IsolateE
+     46   50.0%      LazyCompile: ~lex /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-lexer/index.js:10:13
+     46  100.0%        LazyCompile: ~lex /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug/lib/index.js:89:19
+     46  100.0%          LazyCompile: ~loadString /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-load/index.js:40:34
+     20   43.5%            LazyCompile: *<anonymous> /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-load/index.js:13:29
+     17   37.0%            LazyCompile: ~<anonymous> /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-load/index.js:13:29
+      9   19.6%            LazyCompile: ~compileBody /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug/lib/index.js:81:21
+     25   27.2%      LazyCompile: ~parse /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-parser/index.js:10:15
+     25  100.0%        LazyCompile: ~parse /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug/lib/index.js:101:21
+     25  100.0%          LazyCompile: ~loadString /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-load/index.js:40:34
+     12   48.0%            LazyCompile: ~<anonymous> /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-load/index.js:13:29
+      8   32.0%            LazyCompile: *<anonymous> /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-load/index.js:13:29
+      5   20.0%            LazyCompile: ~compileBody /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug/lib/index.js:81:21
+     17   18.5%      LazyCompile: ~load /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-load/index.js:9:14
+     17  100.0%        LazyCompile: ~loadString /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-load/index.js:40:34
+      6   35.3%          LazyCompile: ~compileBody /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug/lib/index.js:81:21
+      6  100.0%            LazyCompile: ~exports.compile /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug/lib/index.js:237:27
+      6   35.3%          LazyCompile: *<anonymous> /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-load/index.js:13:29
+      6  100.0%            LazyCompile: *walkAST /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-walk/index.js:4:17
+      5   29.4%          LazyCompile: ~<anonymous> /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-load/index.js:13:29
+      5  100.0%            LazyCompile: *walkAST /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-walk/index.js:4:17
+      2    2.2%      LazyCompile: ~readPackage internal/modules/cjs/loader.js:240:21
+      2  100.0%        LazyCompile: ~resolveExports internal/modules/cjs/loader.js:422:24
+      2  100.0%          LazyCompile: ~Module._findPath internal/modules/cjs/loader.js:444:28
+      2  100.0%            LazyCompile: ~Module._resolveFilename internal/modules/cjs/loader.js:796:35
+      2    2.2%      LazyCompile: ~Module._extensions..json internal/modules/cjs/loader.js:1097:39
+      2  100.0%        LazyCompile: ~Module.load internal/modules/cjs/loader.js:916:33
+      2  100.0%          LazyCompile: ~Module._load internal/modules/cjs/loader.js:704:24
+      2  100.0%            LazyCompile: ~Module.require internal/modules/cjs/loader.js:944:36
+     78    4.2%    T __ZN2v88internal19Builtin_ArrayConcatEiPmPNS0_7IsolateE
+     57   73.1%      LazyCompile: *callLexerFunction /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-lexer/index.js:1444:31
+     53   93.0%        LazyCompile: *advance /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-lexer/index.js:1465:20
+     48   90.6%          LazyCompile: *getTokens /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-lexer/index.js:1510:23
+     48  100.0%            LazyCompile: ~lex /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-lexer/index.js:10:13
+      5    9.4%          LazyCompile: *callLexerFunction /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-lexer/index.js:1444:31
+      5  100.0%            LazyCompile: ~getTokens /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-lexer/index.js:1510:23
+      2    3.5%        LazyCompile: ~advance /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-lexer/index.js:1465:20
+      2  100.0%          LazyCompile: *callLexerFunction /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-lexer/index.js:1444:31
+      2  100.0%            LazyCompile: ~getTokens /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-lexer/index.js:1510:23
+      1    1.8%        LazyCompile: ~getTokens /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-lexer/index.js:1510:23
+      1  100.0%          LazyCompile: ~lex /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-lexer/index.js:10:13
+      1  100.0%            LazyCompile: ~lex /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug/lib/index.js:89:19
+      1    1.8%        LazyCompile: ~assertExpression /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-lexer/index.js:73:30
+      1  100.0%          LazyCompile: *attributeValue /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-lexer/index.js:1151:27
+      1  100.0%            LazyCompile: *attribute /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-lexer/index.js:1059:22
+      8   10.3%      LazyCompile: *advance /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-lexer/index.js:1465:20
+      7   87.5%        LazyCompile: *getTokens /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-lexer/index.js:1510:23
+      7  100.0%          LazyCompile: ~lex /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-lexer/index.js:10:13
+      7  100.0%            LazyCompile: ~lex /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug/lib/index.js:89:19
+      1   12.5%        LazyCompile: *callLexerFunction /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-lexer/index.js:1444:31
+      1  100.0%          LazyCompile: ~getTokens /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-lexer/index.js:1510:23
+      1  100.0%            LazyCompile: ~lex /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-lexer/index.js:10:13
+      6    7.7%      LazyCompile: *walkAST /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-walk/index.js:4:17
+      6  100.0%        LazyCompile: *walkAST /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-walk/index.js:4:17
+      5   83.3%          LazyCompile: *walkAST /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-walk/index.js:4:17
+      5  100.0%            LazyCompile: *walkAST /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-walk/index.js:4:17
+      1   16.7%          LazyCompile: ~checkExtendPosition /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-linker/index.js:174:29
+      1  100.0%            LazyCompile: ~link /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-linker/index.js:11:14
+      3    3.8%      LazyCompile: *getTokens /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-lexer/index.js:1510:23
+      3  100.0%        LazyCompile: ~lex /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-lexer/index.js:10:13
+      3  100.0%          LazyCompile: ~lex /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug/lib/index.js:89:19
+      3  100.0%            LazyCompile: ~loadString /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-load/index.js:40:34
+      1    1.3%      LazyCompile: ~target.<computed> /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/winston/lib/winston/common.js:51:30
+      1  100.0%        LazyCompile: ~write /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/servers/shared/lib/requestLogger.js:10:16
+      1  100.0%          LazyCompile: ~logRequest /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/morgan/index.js:116:25
+      1  100.0%            LazyCompile: ~listener /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/on-finished/index.js:161:20
+      1    1.3%      LazyCompile: ~forwarded /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/forwarded/index.js:24:20
+      1  100.0%        LazyCompile: ~alladdrs /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/proxy-addr/index.js:55:19
+      1  100.0%          LazyCompile: ~proxyaddr /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/proxy-addr/index.js:222:20
+      1  100.0%            LazyCompile: ~ip /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/express/lib/request.js:349:36
+      1    1.3%      LazyCompile: ~compileAttrs /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-attrs/index.js:22:22
+      1  100.0%        LazyCompile: ~attrs /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-code-gen/index.js:797:18
+      1  100.0%          LazyCompile: ~visitAttributes /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-code-gen/index.js:777:28
+      1  100.0%            LazyCompile: ~visitTag /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-code-gen/index.js:521:21
+      1    1.3%      LazyCompile: ~callLexerFunction /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-lexer/index.js:1444:31
+      1  100.0%        LazyCompile: ~advance /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-lexer/index.js:1465:20
+      1  100.0%          LazyCompile: ~callLexerFunction /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-lexer/index.js:1444:31
+      1  100.0%            LazyCompile: ~getTokens /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-lexer/index.js:1510:23
+     75    4.0%    T __ZN2v88internal21Builtin_JsonStringifyEiPmPNS0_7IsolateE
+     36   48.0%      LazyCompile: ~lex /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-lexer/index.js:10:13
+     36  100.0%        LazyCompile: ~lex /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug/lib/index.js:89:19
+     36  100.0%          LazyCompile: ~loadString /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-load/index.js:40:34
+     13   36.1%            LazyCompile: ~<anonymous> /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-load/index.js:13:29
+     12   33.3%            LazyCompile: *<anonymous> /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-load/index.js:13:29
+     11   30.6%            LazyCompile: ~compileBody /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug/lib/index.js:81:21
+     16   21.3%      LazyCompile: ~parse /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-parser/index.js:10:15
+     16  100.0%        LazyCompile: ~parse /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug/lib/index.js:101:21
+     16  100.0%          LazyCompile: ~loadString /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-load/index.js:40:34
+      9   56.3%            LazyCompile: ~compileBody /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug/lib/index.js:81:21
+      5   31.3%            LazyCompile: *<anonymous> /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-load/index.js:13:29
+      2   12.5%            LazyCompile: ~<anonymous> /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-load/index.js:13:29
+     14   18.7%      LazyCompile: ~load /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-load/index.js:9:14
+     14  100.0%        LazyCompile: ~loadString /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-load/index.js:40:34
+      5   35.7%          LazyCompile: ~compileBody /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug/lib/index.js:81:21
+      5  100.0%            LazyCompile: ~exports.compile /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug/lib/index.js:237:27
+      5   35.7%          LazyCompile: ~<anonymous> /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-load/index.js:13:29
+      4   80.0%            LazyCompile: *walkAST /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-walk/index.js:4:17
+      1   20.0%            LazyCompile: ~walkAST /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-walk/index.js:4:17
+      4   28.6%          LazyCompile: *<anonymous> /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-load/index.js:13:29
+      4  100.0%            LazyCompile: *walkAST /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-walk/index.js:4:17
+      2    2.7%      LazyCompile: *visitTag /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-code-gen/index.js:521:21
+      2  100.0%        LazyCompile: *visitBlock /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-code-gen/index.js:364:23
+      2  100.0%          LazyCompile: *visit /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-code-gen/index.js:251:18
+      2  100.0%            LazyCompile: *visitTag /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-code-gen/index.js:521:21
+      2    2.7%      LazyCompile: *buffer /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-code-gen/index.js:176:20
+      1   50.0%        LazyCompile: ~visitTag /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-code-gen/index.js:521:21
+      1  100.0%          LazyCompile: ~visitNode /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-code-gen/index.js:307:22
+      1  100.0%            LazyCompile: ~visit /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-code-gen/index.js:251:18
+      1   50.0%        LazyCompile: *visitTag /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-code-gen/index.js:521:21
+      1  100.0%          LazyCompile: *visitBlock /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-code-gen/index.js:364:23
+      1  100.0%            LazyCompile: *visit /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-code-gen/index.js:251:18
+      1    1.3%      LazyCompile: ~stringify /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/js-stringify/index.js:4:19
+      1  100.0%        LazyCompile: ~addAttribute /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-attrs/index.js:46:24
+      1  100.0%          LazyCompile: ~compileAttrs /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-attrs/index.js:22:22
+      1  100.0%            LazyCompile: ~attrs /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-code-gen/index.js:797:18
+      1    1.3%      LazyCompile: ~hash /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/express-session/index.js:579:14
+      1  100.0%        LazyCompile: ~generate /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/express-session/index.js:358:22
+      1  100.0%          LazyCompile: ~session /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/express-session/index.js:178:26
+      1  100.0%            LazyCompile: ~handle /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/express/lib/router/layer.js:86:49
+      1    1.3%      LazyCompile: *visitBlock /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-code-gen/index.js:364:23
+      1  100.0%        LazyCompile: *visit /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-code-gen/index.js:251:18
+      1  100.0%          LazyCompile: *visitTag /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-code-gen/index.js:521:21
+      1  100.0%            LazyCompile: *visitBlock /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-code-gen/index.js:364:23
+      1    1.3%      LazyCompile: *stringify /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/js-stringify/index.js:4:19
+      1  100.0%        LazyCompile: ~addAttribute /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-attrs/index.js:46:24
+      1  100.0%          LazyCompile: ~<anonymous> /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-attrs/index.js:75:25
+      1  100.0%            T __ZN2v88internal8Compiler30GetSharedFunctionInfoForScriptEPNS0_7IsolateENS0_6HandleINS0_6StringEEERKNS1_13ScriptDetailsENS_19ScriptOriginOptionsEPNS_9ExtensionEPNS0_10ScriptDataENS_14ScriptCompiler14CompileOptionsENSF_13NoCacheReasonENS0_11NativesFlagE
+      1    1.3%      LazyCompile: *attrs /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-code-gen/index.js:797:18
+      1  100.0%        LazyCompile: ~visitAttributes /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-code-gen/index.js:777:28
+      1  100.0%          LazyCompile: *visitTag /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-code-gen/index.js:521:21
+      1  100.0%            LazyCompile: *visitBlock /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-code-gen/index.js:364:23
+     31    1.7%    LazyCompile: *callLexerFunction /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-lexer/index.js:1444:31
+     27   87.1%      LazyCompile: *advance /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-lexer/index.js:1465:20
+     20   74.1%        LazyCompile: *getTokens /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-lexer/index.js:1510:23
+     20  100.0%          LazyCompile: ~lex /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-lexer/index.js:10:13
+     20  100.0%            LazyCompile: ~lex /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug/lib/index.js:89:19
+      7   25.9%        LazyCompile: *callLexerFunction /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-lexer/index.js:1444:31
+      7  100.0%          LazyCompile: ~getTokens /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-lexer/index.js:1510:23
+      7  100.0%            LazyCompile: ~lex /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-lexer/index.js:10:13
+      2    6.5%      LazyCompile: ~getTokens /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-lexer/index.js:1510:23
+      2  100.0%        LazyCompile: ~lex /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-lexer/index.js:10:13
+      2  100.0%          LazyCompile: ~lex /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug/lib/index.js:89:19
+      2  100.0%            LazyCompile: ~loadString /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-load/index.js:40:34
+      1    3.2%      LazyCompile: ~include /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-lexer/index.js:729:20
+      1  100.0%        LazyCompile: *callLexerFunction /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-lexer/index.js:1444:31
+      1  100.0%          LazyCompile: *advance /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-lexer/index.js:1465:20
+      1  100.0%            LazyCompile: *getTokens /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-lexer/index.js:1510:23
+      1    3.2%      LazyCompile: ~assertExpression /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-lexer/index.js:73:30
+      1  100.0%        LazyCompile: *conditional /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-lexer/index.js:892:24
+      1  100.0%          LazyCompile: *callLexerFunction /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-lexer/index.js:1444:31
+      1  100.0%            LazyCompile: *advance /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-lexer/index.js:1465:20
+     22    1.2%    T __ZN2v88internal24Builtin_ErrorConstructorEiPmPNS0_7IsolateE
+     20   90.9%      LazyCompile: ~pp$4.raise /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/is-expression/node_modules/acorn/dist/acorn.js:2485:22
+     20  100.0%        LazyCompile: ~pp.unexpected /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/is-expression/node_modules/acorn/dist/acorn.js:622:25
+     16   80.0%          LazyCompile: *pp$3.parseExprAtom /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/is-expression/node_modules/acorn/dist/acorn.js:1931:30
+     12   75.0%            LazyCompile: *pp$3.parseExprOp /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/is-expression/node_modules/acorn/dist/acorn.js:1802:28
+      4   25.0%            LazyCompile: *pp$3.parseExprSubscripts /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/is-expression/node_modules/acorn/dist/acorn.js:1870:36
+      4   20.0%          LazyCompile: ~pp$3.parseExprAtom /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/is-expression/node_modules/acorn/dist/acorn.js:1931:30
+      2   50.0%            LazyCompile: ~pp$3.parseExprSubscripts /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/is-expression/node_modules/acorn/dist/acorn.js:1870:36
+      2   50.0%            LazyCompile: *pp$3.parseExprSubscripts /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/is-expression/node_modules/acorn/dist/acorn.js:1870:36
+      2    9.1%      LazyCompile: ~Protocol._enqueue /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/mysql/lib/protocol/Protocol.js:138:39
+      2  100.0%        LazyCompile: ~query /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/mysql/lib/Connection.js:194:44
+      2  100.0%          LazyCompile: ~<anonymous> /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/knex/lib/dialects/mysql/index.js:155:44
+      2  100.0%            LazyCompile: ~Promise._execute /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/bluebird/js/release/debuggability.js:301:38
+     21    1.1%    LazyCompile: *parseChar /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/character-parser/index.js:76:19
+      9   42.9%      LazyCompile: *parseUntil /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/character-parser/index.js:47:20
+      6   66.7%        LazyCompile: *attrs /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-lexer/index.js:1265:18
+      6  100.0%          LazyCompile: *callLexerFunction /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-lexer/index.js:1444:31
+      6  100.0%            LazyCompile: *advance /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-lexer/index.js:1465:20
+      3   33.3%        LazyCompile: ~bracketExpression /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-lexer/index.js:233:30
+      3  100.0%          LazyCompile: ~attrs /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-lexer/index.js:1265:18
+      3  100.0%            LazyCompile: *callLexerFunction /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-lexer/index.js:1444:31
+      7   33.3%      LazyCompile: *attributeValue /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-lexer/index.js:1151:27
+      7  100.0%        LazyCompile: *attribute /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-lexer/index.js:1059:22
+      5   71.4%          LazyCompile: *attrs /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-lexer/index.js:1265:18
+      5  100.0%            LazyCompile: *callLexerFunction /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-lexer/index.js:1444:31
+      2   28.6%          LazyCompile: ~attrs /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-lexer/index.js:1265:18
+      2  100.0%            LazyCompile: *callLexerFunction /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-lexer/index.js:1444:31
+      4   19.0%      LazyCompile: *parse /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/character-parser/index.js:28:15
+      2   50.0%        LazyCompile: ~assertNestingCorrect /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-lexer/index.js:91:34
+      2  100.0%          LazyCompile: ~attrs /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-lexer/index.js:1265:18
+      2  100.0%            LazyCompile: *callLexerFunction /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-lexer/index.js:1444:31
+      2   50.0%        LazyCompile: *attrs /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-lexer/index.js:1265:18
+      2  100.0%          LazyCompile: *callLexerFunction /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-lexer/index.js:1444:31
+      2  100.0%            LazyCompile: *advance /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-lexer/index.js:1465:20
+      1    4.8%      LazyCompile: *addText /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-lexer/index.js:462:21
+      1  100.0%        LazyCompile: ~text /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-lexer/index.js:574:17
+      1  100.0%          LazyCompile: *callLexerFunction /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-lexer/index.js:1444:31
+      1  100.0%            LazyCompile: *advance /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-lexer/index.js:1465:20
+
+    476   13.8%  t __ZN4node2fsL4ReadERKN2v820FunctionCallbackInfoINS1_5ValueEEE
+    476  100.0%    T __ZN2v88internal21Builtin_HandleApiCallEiPmPNS0_7IsolateE
+    476  100.0%      LazyCompile: ~readSync fs.js:555:18
+    476  100.0%        LazyCompile: ~tryReadSync fs.js:362:21
+    476  100.0%          LazyCompile: ~readFileSync fs.js:374:22
+    459   96.4%            LazyCompile: ~Module._extensions..js internal/modules/cjs/loader.js:1072:37
+     11    2.3%            LazyCompile: ~Module._extensions..json internal/modules/cjs/loader.js:1097:39
+
+    120    3.5%  T _host_get_clock_service
+
+     98    2.8%  t __ZN4node2fsL22InternalModuleReadJSONERKN2v820FunctionCallbackInfoINS1_5ValueEEE
+     98  100.0%    T __ZN2v88internal21Builtin_HandleApiCallEiPmPNS0_7IsolateE
+     98  100.0%      LazyCompile: ~read internal/modules/package_json_reader.js:16:14
+     94   95.9%        LazyCompile: ~readPackage internal/modules/cjs/loader.js:240:21
+     74   78.7%          LazyCompile: ~resolveExports internal/modules/cjs/loader.js:422:24
+     74  100.0%            LazyCompile: ~Module._findPath internal/modules/cjs/loader.js:444:28
+     13   13.8%          LazyCompile: ~readPackageScope internal/modules/cjs/loader.js:271:26
+     12   92.3%            LazyCompile: ~Module._extensions..js internal/modules/cjs/loader.js:1072:37
+      1    7.7%            LazyCompile: ~shouldUseESMLoader internal/modules/run_main.js:23:28
+      7    7.4%          LazyCompile: ~tryPackage internal/modules/cjs/loader.js:288:20
+      7  100.0%            LazyCompile: ~Module._findPath internal/modules/cjs/loader.js:444:28
+      4    4.1%        LazyCompile: *readPackageScope internal/modules/cjs/loader.js:271:26
+      4  100.0%          LazyCompile: ~Module._extensions..js internal/modules/cjs/loader.js:1072:37
+      4  100.0%            LazyCompile: ~Module.load internal/modules/cjs/loader.js:916:33
+
+     83    2.4%  T __ZN4node10contextify17ContextifyContext15CompileFunctionERKN2v820FunctionCallbackInfoINS2_5ValueEEE
+     83  100.0%    T __ZN2v88internal21Builtin_HandleApiCallEiPmPNS0_7IsolateE
+     83  100.0%      LazyCompile: ~wrapSafe internal/modules/cjs/loader.js:964:18
+     83  100.0%        LazyCompile: ~Module._compile internal/modules/cjs/loader.js:1017:37
+     83  100.0%          LazyCompile: ~Module._extensions..js internal/modules/cjs/loader.js:1072:37
+     83  100.0%            LazyCompile: ~Module.load internal/modules/cjs/loader.js:916:33
+
+     49    1.4%  /usr/lib/system/libsystem_malloc.dylib
+     26   53.1%    T __ZN2v88internal8Compiler30GetSharedFunctionInfoForScriptEPNS0_7IsolateENS0_6HandleINS0_6StringEEERKNS1_13ScriptDetailsENS_19ScriptOriginOptionsEPNS_9ExtensionEPNS0_10ScriptDataENS_14ScriptCompiler14CompileOptionsENSF_13NoCacheReasonENS0_11NativesFlagE
+      5   19.2%      T __ZN2v88internal8Compiler30GetSharedFunctionInfoForScriptEPNS0_7IsolateENS0_6HandleINS0_6StringEEERKNS1_13ScriptDetailsENS_19ScriptOriginOptionsEPNS_9ExtensionEPNS0_10ScriptDataENS_14ScriptCompiler14CompileOptionsENSF_13NoCacheReasonENS0_11NativesFlagE
+      2   40.0%        LazyCompile: *Parser /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/is-expression/node_modules/acorn/dist/acorn.js:432:29
+      2  100.0%          LazyCompile: *isExpression /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/is-expression/index.js:14:22
+      2  100.0%            LazyCompile: ~isExpression /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-lexer/index.js:67:26
+      1   20.0%        LazyCompile: ~unwrapReturns /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/with/index.js:73:23
+      1  100.0%          LazyCompile: ~addWith /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/with/index.js:24:17
+      1  100.0%            LazyCompile: ~compile /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-code-gen/index.js:106:20
+      1   20.0%        LazyCompile: ~scan /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-lexer/index.js:185:17
+      1  100.0%          LazyCompile: ~className /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-lexer/index.js:436:22
+      1  100.0%            LazyCompile: *callLexerFunction /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-lexer/index.js:1444:31
+      1   20.0%        LazyCompile: ~readPackage internal/modules/cjs/loader.js:240:21
+      1  100.0%          LazyCompile: ~readPackageScope internal/modules/cjs/loader.js:271:26
+      1  100.0%            LazyCompile: ~trySelf internal/modules/cjs/loader.js:391:17
+      1    3.8%      LazyCompile: ~urlencoded /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/body-parser/lib/types/urlencoded.js:43:21
+      1  100.0%        Eval: ~<anonymous> /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/servers/web/app.js:1:1
+      1  100.0%          LazyCompile: ~Module._compile internal/modules/cjs/loader.js:1017:37
+      1  100.0%            LazyCompile: ~Module._extensions..js internal/modules/cjs/loader.js:1072:37
+      1    3.8%      LazyCompile: ~urlParse url.js:151:18
+      1  100.0%        LazyCompile: ~Request.init /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/request/request.js:141:35
+      1  100.0%          LazyCompile: ~Request /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/request/request.js:93:18
+      1  100.0%            LazyCompile: ~request /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/request/index.js:42:18
+      1    3.8%      LazyCompile: ~text /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-lexer/index.js:574:17
+      1  100.0%        LazyCompile: *callLexerFunction /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-lexer/index.js:1444:31
+      1  100.0%          LazyCompile: *advance /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-lexer/index.js:1465:20
+      1  100.0%            LazyCompile: *getTokens /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-lexer/index.js:1510:23
+      1    3.8%      LazyCompile: ~socketOnDrain _http_server.js:518:23
+      1  100.0%        LazyCompile: ~updateOutgoingData _http_server.js:513:28
+      1  100.0%          LazyCompile: ~_send _http_outgoing.js:305:49
+      1  100.0%            LazyCompile: ~write_ _http_outgoing.js:678:16
+      1    3.8%      LazyCompile: ~pp$7.readEscapedChar /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/acorn/dist/acorn.js:2998:34
+      1  100.0%        LazyCompile: ~pp$7.readString /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/acorn/dist/acorn.js:2925:29
+      1  100.0%          LazyCompile: ~pp$7.getTokenFromCode /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/acorn/dist/acorn.js:2686:35
+      1  100.0%            LazyCompile: ~pp$7.readToken /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/acorn/dist/acorn.js:2471:28
+      1    3.8%      LazyCompile: ~pp$5.finishNode /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/acorn-globals/node_modules/acorn/dist/acorn.js:2537:27
+      1  100.0%        LazyCompile: ~pp$3.parseLiteral /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/acorn-globals/node_modules/acorn/dist/acorn.js:2015:29
+      1  100.0%          LazyCompile: ~pp$3.parseExprAtom /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/acorn-globals/node_modules/acorn/dist/acorn.js:1931:30
+      1  100.0%            LazyCompile: ~pp$3.parseExprSubscripts /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/acorn-globals/node_modules/acorn/dist/acorn.js:1870:36
+      1    3.8%      LazyCompile: ~pp$3.parseConditional /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/babylon/lib/index.js:3387:34
+      1  100.0%        LazyCompile: ~pp$3.parseMaybeConditional /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/babylon/lib/index.js:3378:39
+      1  100.0%          LazyCompile: ~pp$3.parseMaybeAssign /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/babylon/lib/index.js:3322:34
+      1  100.0%            LazyCompile: ~pp$3.parseExprListItem /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/babylon/lib/index.js:4305:35
+      1    3.8%      LazyCompile: ~pp$1.parseFunction /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/acorn-globals/node_modules/acorn/dist/acorn.js:1109:30
+      1  100.0%        LazyCompile: ~pp$3.parseExprAtom /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/acorn-globals/node_modules/acorn/dist/acorn.js:1931:30
+      1  100.0%          LazyCompile: ~pp$3.parseExprSubscripts /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/acorn-globals/node_modules/acorn/dist/acorn.js:1870:36
+      1  100.0%            LazyCompile: ~pp$3.parseMaybeUnary /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/acorn-globals/node_modules/acorn/dist/acorn.js:1828:32
+      1    3.8%      LazyCompile: ~nextTick internal/process/task_queues.js:101:18
+      1  100.0%        LazyCompile: ~resume internal/streams/readable.js:958:16
+      1  100.0%          LazyCompile: ~Readable.resume internal/streams/readable.js:944:37
+      1  100.0%            LazyCompile: ~_dump _http_incoming.js:290:49
+      1    3.8%      LazyCompile: ~listOnTimeout internal/timers.js:502:25
+      1  100.0%        LazyCompile: ~processTimers internal/timers.js:482:25
+      1    3.8%      LazyCompile: ~isExpression /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/is-expression/index.js:14:22
+      1  100.0%        LazyCompile: ~isExpression /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-lexer/index.js:67:26
+      1  100.0%          LazyCompile: *attributeValue /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-lexer/index.js:1151:27
+      1  100.0%            LazyCompile: ~attribute /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-lexer/index.js:1059:22
+      1    3.8%      LazyCompile: ~exports.clone /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/winston/lib/winston/common.js:79:26
+      1  100.0%        LazyCompile: ~exports.log /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/winston/lib/winston/common.js:142:24
+      1  100.0%          LazyCompile: ~Console.log /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/winston/lib/winston/transports/console.js:91:34
+      1  100.0%            LazyCompile: ~transportLog /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/winston/lib/winston/logger.js:232:24
+      1    3.8%      LazyCompile: ~copy buffer.js:768:16
+      1  100.0%        LazyCompile: ~Parser.parseBuffer /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/mysql/lib/protocol/Parser.js:322:40
+      1  100.0%          LazyCompile: ~HandshakeInitializationPacket.parse /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/mysql/lib/protocol/packets/HandshakeInitializationPacket.js:30:57
+      1  100.0%            LazyCompile: ~Protocol._parsePacket /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/mysql/lib/protocol/Protocol.js:231:43
+      1    3.8%      LazyCompile: ~attributeValue /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-lexer/index.js:1151:27
+      1  100.0%        LazyCompile: ~attribute /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-lexer/index.js:1059:22
+      1  100.0%          LazyCompile: ~attrs /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-lexer/index.js:1265:18
+      1  100.0%            LazyCompile: ~callLexerFunction /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-lexer/index.js:1444:31
+      1    3.8%      LazyCompile: ~assembleStyles /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/ansi-styles/index.js:19:24
+      1  100.0%        T __ZN2v88internal8Compiler30GetSharedFunctionInfoForScriptEPNS0_7IsolateENS0_6HandleINS0_6StringEEERKNS1_13ScriptDetailsENS_19ScriptOriginOptionsEPNS_9ExtensionEPNS0_10ScriptDataENS_14ScriptCompiler14CompileOptionsENSF_13NoCacheReasonENS0_11NativesFlagE
+      1  100.0%          LazyCompile: ~Module.load internal/modules/cjs/loader.js:916:33
+      1  100.0%            LazyCompile: ~Module._load internal/modules/cjs/loader.js:704:24
+      1    3.8%      LazyCompile: ~Token /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/babylon/lib/index.js:651:27
+      1  100.0%        LazyCompile: ~next /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/babylon/lib/index.js:682:43
+      1  100.0%          LazyCompile: ~pp$3.parseExprOp /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/babylon/lib/index.js:3418:29
+      1  100.0%            LazyCompile: ~pp$3.parseExprOps /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/babylon/lib/index.js:3401:30
+      1    3.8%      LazyCompile: ~Async /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/bluebird/js/release/async.js:8:15
+      1  100.0%        LazyCompile: ~module.exports /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/bluebird/js/release/promise.js:2:26
+      1  100.0%          Eval: ~<anonymous> /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/bluebird/js/release/bluebird.js:1:1
+      1  100.0%            LazyCompile: ~Module._compile internal/modules/cjs/loader.js:1017:37
+      1    3.8%      LazyCompile: *visit /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-code-gen/index.js:251:18
+      1  100.0%        LazyCompile: ~visitTag /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-code-gen/index.js:521:21
+      1  100.0%          LazyCompile: *visit /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-code-gen/index.js:251:18
+      1  100.0%            LazyCompile: ~visitBlock /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-code-gen/index.js:364:23
+      1    3.8%      LazyCompile: *nextTick internal/process/task_queues.js:101:18
+      1  100.0%        LazyCompile: ~write_ _http_outgoing.js:678:16
+      1  100.0%          LazyCompile: ~write _http_outgoing.js:660:49
+      1  100.0%            LazyCompile: ~writetop /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/express-session/index.js:269:24
+      1    3.8%      LazyCompile: *c /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/acorn-globals/node_modules/acorn/dist/walk.js:40:15
+      1  100.0%        LazyCompile: ~base.Pattern /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/acorn-globals/node_modules/acorn/dist/walk.js:253:25
+      1  100.0%          LazyCompile: *c /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/acorn-globals/node_modules/acorn/dist/walk.js:40:15
+      1  100.0%            LazyCompile: ~base.AssignmentExpression.base.AssignmentPattern /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/acorn-globals/node_modules/acorn/dist/walk.js:299:63
+      1    3.8%      Eval: ~<anonymous> /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/clean-css/lib/optimizer/level-2/compactable.js:1:1
+      1  100.0%        LazyCompile: ~Module._compile internal/modules/cjs/loader.js:1017:37
+      1  100.0%          LazyCompile: ~Module._extensions..js internal/modules/cjs/loader.js:1072:37
+      1  100.0%            LazyCompile: ~Module.load internal/modules/cjs/loader.js:916:33
+      6   12.2%    T __ZN2v88internal24Builtin_ErrorConstructorEiPmPNS0_7IsolateE
+      6  100.0%      LazyCompile: ~pp$4.raise /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/is-expression/node_modules/acorn/dist/acorn.js:2485:22
+      6  100.0%        LazyCompile: ~pp.unexpected /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/is-expression/node_modules/acorn/dist/acorn.js:622:25
+      4   66.7%          LazyCompile: *pp$3.parseExprAtom /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/is-expression/node_modules/acorn/dist/acorn.js:1931:30
+      4  100.0%            LazyCompile: *pp$3.parseExprOp /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/is-expression/node_modules/acorn/dist/acorn.js:1802:28
+      2   33.3%          LazyCompile: ~pp$3.parseExprAtom /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/is-expression/node_modules/acorn/dist/acorn.js:1931:30
+      2  100.0%            LazyCompile: *pp$3.parseExprSubscripts /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/is-expression/node_modules/acorn/dist/acorn.js:1870:36
+      4    8.2%    T __ZN2v88internal21Builtin_JsonStringifyEiPmPNS0_7IsolateE
+      4  100.0%      LazyCompile: ~load /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-load/index.js:9:14
+      4  100.0%        LazyCompile: ~loadString /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-load/index.js:40:34
+      2   50.0%          LazyCompile: *<anonymous> /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-load/index.js:13:29
+      2  100.0%            LazyCompile: *walkAST /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-walk/index.js:4:17
+      1   25.0%          LazyCompile: ~compileBody /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug/lib/index.js:81:21
+      1  100.0%            LazyCompile: ~exports.compile /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug/lib/index.js:237:27
+      1   25.0%          LazyCompile: ~<anonymous> /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-load/index.js:13:29
+      1  100.0%            LazyCompile: *walkAST /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-walk/index.js:4:17
+      3    6.1%    T __ZN2v88internal27Builtin_FunctionConstructorEiPmPNS0_7IsolateE
+      2   66.7%      LazyCompile: ~DEFNODE :412:17
+      2  100.0%        Eval: ~<anonymous> :1:20
+      2  100.0%          Eval: ~<anonymous> /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/uglify-js/tools/node.js:1:1
+      2  100.0%            LazyCompile: ~Module._compile internal/modules/cjs/loader.js:1017:37
+      1   33.3%      LazyCompile: ~makePredicate :240:23
+      1  100.0%        Eval: ~<anonymous> :1:20
+      1  100.0%          Eval: ~<anonymous> /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/uglify-js/tools/node.js:1:1
+      1  100.0%            LazyCompile: ~Module._compile internal/modules/cjs/loader.js:1017:37
+      2    4.1%    T __ZN2v88internal17Builtin_JsonParseEiPmPNS0_7IsolateE
+      1   50.0%      LazyCompile: ~lex /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-lexer/index.js:10:13
+      1  100.0%        LazyCompile: ~lex /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug/lib/index.js:89:19
+      1  100.0%          LazyCompile: ~loadString /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-load/index.js:40:34
+      1  100.0%            LazyCompile: ~<anonymous> /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-load/index.js:13:29
+      1   50.0%      LazyCompile: ~<anonymous> /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/request/request.js:1116:27
+      1  100.0%        LazyCompile: *emit events.js:264:44
+      1  100.0%          LazyCompile: ~<anonymous> /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/request/request.js:1078:42
+      1  100.0%            LazyCompile: ~onceWrapper events.js:416:21
+
+     41    1.2%  T __ZN4node13native_module15NativeModuleEnv15CompileFunctionERKN2v820FunctionCallbackInfoINS2_5ValueEEE
+     41  100.0%    T __ZN2v88internal21Builtin_HandleApiCallEiPmPNS0_7IsolateE
+     41  100.0%      LazyCompile: ~compileForInternalLoader internal/bootstrap/loaders.js:270:27
+     36   87.8%        LazyCompile: ~nativeModuleRequire internal/bootstrap/loaders.js:303:29
+      4   11.1%          Eval: ~<anonymous> internal/bootstrap/node.js:1:1
+      2    5.6%          Eval: ~<anonymous> internal/source_map/source_map_cache.js:1:1
+      2  100.0%            LazyCompile: ~compileForInternalLoader internal/bootstrap/loaders.js:270:27
+      2    5.6%          Eval: ~<anonymous> internal/modules/esm/loader.js:1:1
+      2  100.0%            LazyCompile: ~compileForInternalLoader internal/bootstrap/loaders.js:270:27
+      2    5.6%          Eval: ~<anonymous> http.js:1:1
+      2  100.0%            LazyCompile: ~compileForInternalLoader internal/bootstrap/loaders.js:270:27
+      2    5.6%          Eval: ~<anonymous> crypto.js:1:1
+      2  100.0%            LazyCompile: ~compileForInternalLoader internal/bootstrap/loaders.js:270:27
+      1    2.8%          LazyCompile: ~setupPrepareStackTrace internal/bootstrap/node.js:252:32
+      1  100.0%            Eval: ~<anonymous> internal/bootstrap/node.js:1:1
+      1    2.8%          LazyCompile: ~setupBuffer internal/bootstrap/node.js:300:21
+      1  100.0%            Eval: ~<anonymous> internal/bootstrap/node.js:1:1
+      1    2.8%          LazyCompile: ~initializeCJSLoader internal/bootstrap/pre_execution.js:407:29
+      1  100.0%            LazyCompile: ~prepareMainThreadExecution internal/bootstrap/pre_execution.js:19:36
+      1    2.8%          Eval: ~<anonymous> tty.js:1:1
+      1  100.0%            LazyCompile: ~compileForInternalLoader internal/bootstrap/loaders.js:270:27
+      1    2.8%          Eval: ~<anonymous> tls.js:1:1
+      1  100.0%            LazyCompile: ~compileForInternalLoader internal/bootstrap/loaders.js:270:27
+      1    2.8%          Eval: ~<anonymous> stream.js:1:1
+      1  100.0%            LazyCompile: ~compileForInternalLoader internal/bootstrap/loaders.js:270:27
+      1    2.8%          Eval: ~<anonymous> net.js:1:1
+      1  100.0%            LazyCompile: ~compileForInternalLoader internal/bootstrap/loaders.js:270:27
+      1    2.8%          Eval: ~<anonymous> internal/url.js:1:1
+      1  100.0%            LazyCompile: ~compileForInternalLoader internal/bootstrap/loaders.js:270:27
+      1    2.8%          Eval: ~<anonymous> internal/timers.js:1:1
+      1  100.0%            LazyCompile: ~compileForInternalLoader internal/bootstrap/loaders.js:270:27
+      1    2.8%          Eval: ~<anonymous> internal/streams/readable.js:1:1
+      1  100.0%            LazyCompile: ~compileForInternalLoader internal/bootstrap/loaders.js:270:27
+      1    2.8%          Eval: ~<anonymous> internal/process/esm_loader.js:1:1
+      1  100.0%            LazyCompile: ~compileForInternalLoader internal/bootstrap/loaders.js:270:27
+      1    2.8%          Eval: ~<anonymous> internal/modules/cjs/loader.js:1:1
+      1  100.0%            LazyCompile: ~compileForInternalLoader internal/bootstrap/loaders.js:270:27
+      1    2.8%          Eval: ~<anonymous> internal/modules/cjs/helpers.js:1:1
+      1  100.0%            LazyCompile: ~compileForInternalLoader internal/bootstrap/loaders.js:270:27
+      1    2.8%          Eval: ~<anonymous> internal/main/run_main_module.js:1:1
+      1    2.8%          Eval: ~<anonymous> internal/console/global.js:1:1
+      1  100.0%            LazyCompile: ~compileForInternalLoader internal/bootstrap/loaders.js:270:27
+      1    2.8%          Eval: ~<anonymous> internal/cluster/round_robin_handle.js:1:1
+      1  100.0%            LazyCompile: ~compileForInternalLoader internal/bootstrap/loaders.js:270:27
+      1    2.8%          Eval: ~<anonymous> internal/cluster/master.js:1:1
+      1  100.0%            LazyCompile: ~compileForInternalLoader internal/bootstrap/loaders.js:270:27
+      1    2.8%          Eval: ~<anonymous> internal/child_process.js:1:1
+      1  100.0%            LazyCompile: ~compileForInternalLoader internal/bootstrap/loaders.js:270:27
+      1    2.8%          Eval: ~<anonymous> fs.js:1:1
+      1  100.0%            LazyCompile: ~compileForInternalLoader internal/bootstrap/loaders.js:270:27
+      1    2.8%          Eval: ~<anonymous> events.js:1:1
+      1  100.0%            LazyCompile: ~compileForInternalLoader internal/bootstrap/loaders.js:270:27
+      1    2.8%          Eval: ~<anonymous> assert.js:1:1
+      1  100.0%            LazyCompile: ~compileForInternalLoader internal/bootstrap/loaders.js:270:27
+      1    2.8%          Eval: ~<anonymous> _tls_wrap.js:1:1
+      1  100.0%            LazyCompile: ~compileForInternalLoader internal/bootstrap/loaders.js:270:27
+      1    2.8%          Eval: ~<anonymous> _http_client.js:1:1
+      1  100.0%            LazyCompile: ~compileForInternalLoader internal/bootstrap/loaders.js:270:27
+      1    2.8%          Eval: ~<anonymous> _http_agent.js:1:1
+      1  100.0%            LazyCompile: ~compileForInternalLoader internal/bootstrap/loaders.js:270:27
+      5   12.2%        LazyCompile: ~compileForPublicLoader internal/bootstrap/loaders.js:219:25
+      5  100.0%          LazyCompile: ~loadNativeModule internal/modules/cjs/helpers.js:31:26
+      5  100.0%            LazyCompile: ~Module._load internal/modules/cjs/loader.js:704:24
+
+     38    1.1%  t __ZN4node2fsL18InternalModuleStatERKN2v820FunctionCallbackInfoINS1_5ValueEEE
+     38  100.0%    T __ZN2v88internal21Builtin_HandleApiCallEiPmPNS0_7IsolateE
+     38  100.0%      LazyCompile: ~stat internal/modules/cjs/loader.js:132:14
+     28   73.7%        LazyCompile: ~Module._findPath internal/modules/cjs/loader.js:444:28
+     28  100.0%          LazyCompile: ~Module._resolveFilename internal/modules/cjs/loader.js:796:35
+     28  100.0%            LazyCompile: ~Module._load internal/modules/cjs/loader.js:704:24
+     10   26.3%        LazyCompile: ~tryFile internal/modules/cjs/loader.js:334:17
+      7   70.0%          LazyCompile: ~tryExtensions internal/modules/cjs/loader.js:350:23
+      7  100.0%            LazyCompile: ~Module._findPath internal/modules/cjs/loader.js:444:28
+      3   30.0%          LazyCompile: ~tryPackage internal/modules/cjs/loader.js:288:20
+      3  100.0%            LazyCompile: ~Module._findPath internal/modules/cjs/loader.js:444:28
+
+     38    1.1%  T _mach_port_get_attributes
+     29   76.3%    T __ZN2v88internal8Compiler30GetSharedFunctionInfoForScriptEPNS0_7IsolateENS0_6HandleINS0_6StringEEERKNS1_13ScriptDetailsENS_19ScriptOriginOptionsEPNS_9ExtensionEPNS0_10ScriptDataENS_14ScriptCompiler14CompileOptionsENSF_13NoCacheReasonENS0_11NativesFlagE
+      3   10.3%      T __ZN2v88internal8Compiler30GetSharedFunctionInfoForScriptEPNS0_7IsolateENS0_6HandleINS0_6StringEEERKNS1_13ScriptDetailsENS_19ScriptOriginOptionsEPNS_9ExtensionEPNS0_10ScriptDataENS_14ScriptCompiler14CompileOptionsENSF_13NoCacheReasonENS0_11NativesFlagE
+      1   33.3%        LazyCompile: ~visitMixin /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-code-gen/index.js:423:23
+      1  100.0%          LazyCompile: ~visitNode /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-code-gen/index.js:307:22
+      1  100.0%            LazyCompile: ~visit /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-code-gen/index.js:251:18
+      1   33.3%        LazyCompile: ~scan /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-lexer/index.js:185:17
+      1  100.0%          LazyCompile: ~text /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-lexer/index.js:574:17
+      1  100.0%            LazyCompile: *callLexerFunction /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-lexer/index.js:1444:31
+      1   33.3%        LazyCompile: ~parseInclude /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-parser/index.js:830:25
+      1  100.0%          LazyCompile: ~parseExpr /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-parser/index.js:205:22
+      1  100.0%            LazyCompile: ~parse /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-parser/index.js:103:18
+      2    6.9%      LazyCompile: ~emit events.js:264:44
+      1   50.0%        LazyCompile: ~query /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/knex/lib/client.js:190:24
+      1  100.0%          LazyCompile: ~<anonymous> /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/knex/lib/runner.js:144:45
+      1  100.0%            LazyCompile: ~tryCatcher /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/bluebird/js/release/util.js:12:20
+      1   50.0%        LazyCompile: ~emitListeningNT net.js:1349:25
+      1  100.0%          LazyCompile: ~processTicksAndRejections internal/process/task_queues.js:65:35
+      1    3.4%      LazyCompile: ~touch /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/express-session/session/session.js:47:56
+      1  100.0%        LazyCompile: ~end /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/express-session/index.js:249:27
+      1  100.0%          LazyCompile: ~send /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/express/lib/response.js:107:25
+      1  100.0%            LazyCompile: ~done /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/express/lib/response.js:1002:27
+      1    3.4%      LazyCompile: ~toString buffer.js:776:46
+      1  100.0%        LazyCompile: ~readFileSync fs.js:374:22
+      1  100.0%          LazyCompile: ~Module._extensions..js internal/modules/cjs/loader.js:1072:37
+      1  100.0%            LazyCompile: ~Module.load internal/modules/cjs/loader.js:916:33
+      1    3.4%      LazyCompile: ~serveStatic /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/serve-static/index.js:72:31
+      1  100.0%        LazyCompile: ~handle /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/express/lib/router/layer.js:86:49
+      1  100.0%          LazyCompile: ~trim_prefix /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/express/lib/router/index.js:288:23
+      1  100.0%            LazyCompile: ~<anonymous> /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/express/lib/router/index.js:275:64
+      1    3.4%      LazyCompile: ~readEscapedChar /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/babylon/lib/index.js:1382:65
+      1  100.0%        LazyCompile: ~readString /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/babylon/lib/index.js:1304:55
+      1  100.0%          LazyCompile: ~getTokenFromCode /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/babylon/lib/index.js:1041:67
+      1  100.0%            LazyCompile: ~readToken /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/babylon/lib/index.js:770:53
+      1    3.4%      LazyCompile: ~prepareMainThreadExecution internal/bootstrap/pre_execution.js:19:36
+      1  100.0%        Eval: ~<anonymous> internal/main/run_main_module.js:1:1
+      1    3.4%      LazyCompile: ~pp$7.readEscapedChar /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/acorn-globals/node_modules/acorn/dist/acorn.js:3255:32
+      1  100.0%        LazyCompile: ~pp$7.readString /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/acorn-globals/node_modules/acorn/dist/acorn.js:3182:27
+      1  100.0%          LazyCompile: ~pp$7.getTokenFromCode /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/acorn-globals/node_modules/acorn/dist/acorn.js:2942:33
+      1  100.0%            LazyCompile: ~pp$7.readToken /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/acorn-globals/node_modules/acorn/dist/acorn.js:2727:26
+      1    3.4%      LazyCompile: ~pp$3.parseMaybeAssign /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/babylon/lib/index.js:3322:34
+      1  100.0%        LazyCompile: ~pp$3.parseExprListItem /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/babylon/lib/index.js:4305:35
+      1  100.0%          LazyCompile: ~pp$3.parseCallExpressionArguments /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/babylon/lib/index.js:3555:46
+      1  100.0%            LazyCompile: ~pp$3.parseSubscripts /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/babylon/lib/index.js:3507:33
+      1    3.4%      LazyCompile: ~pp$3.parseExprOp /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/acorn-globals/node_modules/acorn/dist/acorn.js:1802:28
+      1  100.0%        LazyCompile: ~pp$3.parseExprOps /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/acorn-globals/node_modules/acorn/dist/acorn.js:1789:29
+      1  100.0%          LazyCompile: ~pp$3.parseMaybeConditional /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/acorn-globals/node_modules/acorn/dist/acorn.js:1772:38
+      1  100.0%            LazyCompile: ~pp$3.parseMaybeAssign /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/acorn-globals/node_modules/acorn/dist/acorn.js:1735:33
+      1    3.4%      LazyCompile: ~pp$1.parseTopLevel /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/acorn-globals/node_modules/acorn/dist/acorn.js:666:30
+      1  100.0%        LazyCompile: ~parse /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/acorn-globals/node_modules/acorn/dist/acorn.js:526:41
+      1  100.0%          LazyCompile: ~parse /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/acorn-globals/node_modules/acorn/dist/acorn.js:3377:15
+      1  100.0%            LazyCompile: ~reallyParse /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/acorn-globals/index.js:21:21
+      1    3.4%      LazyCompile: ~pp$1.parseStatement /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/acorn/dist/acorn.js:675:33
+      1  100.0%        LazyCompile: ~pp$1.parseBlock /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/acorn/dist/acorn.js:974:29
+      1  100.0%          LazyCompile: ~pp$3.parseFunctionBody /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/acorn/dist/acorn.js:2094:36
+      1  100.0%            LazyCompile: ~pp$1.parseFunction /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/acorn/dist/acorn.js:1056:32
+      1    3.4%      LazyCompile: ~module.exports /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/bluebird/js/release/promise.js:2:26
+      1  100.0%        Eval: ~<anonymous> /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/bluebird/js/release/bluebird.js:1:1
+      1  100.0%          LazyCompile: ~Module._compile internal/modules/cjs/loader.js:1017:37
+      1  100.0%            LazyCompile: ~Module._extensions..js internal/modules/cjs/loader.js:1072:37
+      1    3.4%      LazyCompile: ~createHash crypto.js:114:20
+      1  100.0%        LazyCompile: ~entitytag /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/etag/index.js:39:20
+      1  100.0%          LazyCompile: ~etag /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/etag/index.js:70:15
+      1  100.0%            LazyCompile: ~generateETag /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/express/lib/utils.js:275:32
+      1    3.4%      LazyCompile: ~connectionListener _http_server.js:412:28
+      1  100.0%        LazyCompile: ~emit events.js:264:44
+      1  100.0%          LazyCompile: ~onconnection net.js:1531:22
+      1    3.4%      LazyCompile: ~compileBody /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug/lib/index.js:81:21
+      1  100.0%        LazyCompile: ~exports.compile /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug/lib/index.js:237:27
+      1  100.0%          LazyCompile: ~handleTemplateCache /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug/lib/index.js:209:30
+      1  100.0%            LazyCompile: ~exports.renderFile /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug/lib/index.js:409:30
+      1    3.4%      LazyCompile: ~attrs /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-lexer/index.js:1265:18
+      1  100.0%        LazyCompile: ~callLexerFunction /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-lexer/index.js:1444:31
+      1  100.0%          LazyCompile: ~advance /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-lexer/index.js:1465:20
+      1  100.0%            LazyCompile: ~callLexerFunction /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-lexer/index.js:1444:31
+      1    3.4%      LazyCompile: ~Promise._resolveCallback /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/bluebird/js/release/promise.js:427:46
+      1  100.0%        LazyCompile: ~Promise._resolveFromSyncValue /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/bluebird/js/release/method.js:48:52
+      1  100.0%          LazyCompile: ~Promise.attempt.Promise.try /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/bluebird/js/release/method.js:24:45
+      1  100.0%            LazyCompile: ~acquireConnection /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/knex/lib/client.js:328:48
+      1    3.4%      LazyCompile: ~Parser /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/acorn/dist/acorn.js:426:31
+      1  100.0%        LazyCompile: ~parse /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/acorn/dist/acorn.js:3097:17
+      1  100.0%          LazyCompile: ~reallyParse /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/with/index.js:8:21
+      1  100.0%            LazyCompile: ~unwrapReturns /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/with/index.js:73:23
+      1    3.4%      LazyCompile: ~Module._load internal/modules/cjs/loader.js:704:24
+      1  100.0%        LazyCompile: ~executeUserEntryPoint internal/modules/run_main.js:65:31
+      1  100.0%          Eval: ~<anonymous> internal/main/run_main_module.js:1:1
+      1    3.4%      LazyCompile: ~ClientAuthenticationPacket.write /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/mysql/lib/protocol/packets/ClientAuthenticationPacket.js:35:54
+      1  100.0%        LazyCompile: ~Protocol._emitPacket /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/mysql/lib/protocol/Protocol.js:290:42
+      1  100.0%          LazyCompile: ~<anonymous> /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/mysql/lib/protocol/Protocol.js:156:27
+      1  100.0%            LazyCompile: ~emit events.js:264:44
+      1    3.4%      LazyCompile: ~<anonymous> /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/lodash/_createAssigner.js:12:27
+      1  100.0%        LazyCompile: ~apply /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/lodash/_apply.js:11:15
+      1  100.0%          LazyCompile: ~<anonymous> /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/lodash/_overRest.js:17:18
+      1  100.0%            LazyCompile: ~module.exports /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/servers/web/lib/httpClient.js:5:18
+      1    3.4%      LazyCompile: *pp$3.parseSubscripts /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/acorn-globals/node_modules/acorn/dist/acorn.js:1883:32
+      1  100.0%        LazyCompile: *pp$3.parseMaybeUnary /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/acorn-globals/node_modules/acorn/dist/acorn.js:1828:32
+      1  100.0%          LazyCompile: *pp$3.parseExprOps /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/acorn-globals/node_modules/acorn/dist/acorn.js:1789:29
+      1  100.0%            LazyCompile: *pp$3.parseMaybeAssign /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/acorn-globals/node_modules/acorn/dist/acorn.js:1735:33
+      1    3.4%      Eval: ~<anonymous> /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/body-parser/index.js:1:1
+      1  100.0%        LazyCompile: ~Module._compile internal/modules/cjs/loader.js:1017:37
+      1  100.0%          LazyCompile: ~Module._extensions..js internal/modules/cjs/loader.js:1072:37
+      1  100.0%            LazyCompile: ~Module.load internal/modules/cjs/loader.js:916:33
+      1    3.4%      Eval: ~<anonymous> /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/babylon/lib/index.js:1:1
+      1  100.0%        LazyCompile: ~Module._compile internal/modules/cjs/loader.js:1017:37
+      1  100.0%          LazyCompile: ~Module._extensions..js internal/modules/cjs/loader.js:1072:37
+      1  100.0%            LazyCompile: ~Module.load internal/modules/cjs/loader.js:916:33
+      1    3.4%      Eval: ~<anonymous> /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/babel-types/lib/definitions/experimental.js:1:1
+      1  100.0%        LazyCompile: ~Module._compile internal/modules/cjs/loader.js:1017:37
+      1  100.0%          LazyCompile: ~Module._extensions..js internal/modules/cjs/loader.js:1072:37
+      1  100.0%            LazyCompile: ~Module.load internal/modules/cjs/loader.js:916:33
+      2    5.3%    T __ZN2v88internal27Builtin_FunctionConstructorEiPmPNS0_7IsolateE
+      1   50.0%      LazyCompile: ~map :10020:17
+      1  100.0%        Eval: ~<anonymous> :9572:10
+      1  100.0%          Eval: ~<anonymous> :1:20
+      1  100.0%            Eval: ~<anonymous> /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/uglify-js/tools/node.js:1:1
+      1   50.0%      Eval: ~<anonymous> /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/uglify-js/tools/node.js:1:1
+      1  100.0%        LazyCompile: ~Module._compile internal/modules/cjs/loader.js:1017:37
+      1  100.0%          LazyCompile: ~Module._extensions..js internal/modules/cjs/loader.js:1072:37
+      1  100.0%            LazyCompile: ~Module.load internal/modules/cjs/loader.js:916:33
+
+     38    1.1%  /usr/lib/system/libsystem_platform.dylib
+     17   44.7%    T __ZN2v88internal8Compiler30GetSharedFunctionInfoForScriptEPNS0_7IsolateENS0_6HandleINS0_6StringEEERKNS1_13ScriptDetailsENS_19ScriptOriginOptionsEPNS_9ExtensionEPNS0_10ScriptDataENS_14ScriptCompiler14CompileOptionsENSF_13NoCacheReasonENS0_11NativesFlagE
+      7   41.2%      T __ZN2v88internal8Compiler30GetSharedFunctionInfoForScriptEPNS0_7IsolateENS0_6HandleINS0_6StringEEERKNS1_13ScriptDetailsENS_19ScriptOriginOptionsEPNS_9ExtensionEPNS0_10ScriptDataENS_14ScriptCompiler14CompileOptionsENSF_13NoCacheReasonENS0_11NativesFlagE
+      3   42.9%        LazyCompile: *Parser /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/is-expression/node_modules/acorn/dist/acorn.js:432:29
+      2   66.7%          LazyCompile: *isExpression /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/is-expression/index.js:14:22
+      2  100.0%            LazyCompile: ~isExpression /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-lexer/index.js:67:26
+      1   33.3%          LazyCompile: ~isExpression /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/is-expression/index.js:14:22
+      1  100.0%            LazyCompile: ~isExpression /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-lexer/index.js:67:26
+      1   14.3%        LazyCompile: ~pp$7.skipSpace /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/acorn/dist/acorn.js:2525:28
+      1  100.0%          LazyCompile: ~pp$7.nextToken /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/acorn/dist/acorn.js:2459:28
+      1  100.0%            LazyCompile: ~parse /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/acorn/dist/acorn.js:513:43
+      1   14.3%        LazyCompile: ~keywordRegexp /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/is-expression/node_modules/acorn/dist/acorn.js:428:23
+      1  100.0%          LazyCompile: ~Parser /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/is-expression/node_modules/acorn/dist/acorn.js:432:29
+      1  100.0%            LazyCompile: ~isExpression /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/is-expression/index.js:14:22
+      1   14.3%        LazyCompile: *visitBlock /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-code-gen/index.js:364:23
+      1  100.0%          LazyCompile: *visit /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-code-gen/index.js:251:18
+      1  100.0%            LazyCompile: ~visitConditional /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-code-gen/index.js:686:29
+      1   14.3%        LazyCompile: *buffer /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-code-gen/index.js:176:20
+      1  100.0%          LazyCompile: ~visitTag /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-code-gen/index.js:521:21
+      1  100.0%            LazyCompile: ~visitNode /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-code-gen/index.js:307:22
+      2   11.8%      LazyCompile: *parseChar /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/character-parser/index.js:76:19
+      1   50.0%        LazyCompile: *parse /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/character-parser/index.js:28:15
+      1  100.0%          LazyCompile: *attrs /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-lexer/index.js:1265:18
+      1  100.0%            LazyCompile: *callLexerFunction /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-lexer/index.js:1444:31
+      1   50.0%        LazyCompile: *attributeValue /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-lexer/index.js:1151:27
+      1  100.0%          LazyCompile: *attribute /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-lexer/index.js:1059:22
+      1  100.0%            LazyCompile: *attrs /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-lexer/index.js:1265:18
+      1    5.9%      LazyCompile: ~wrapfunction /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/raw-body/node_modules/depd/index.js:395:23
+      1  100.0%        LazyCompile: ~populateConstructorExports /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/raw-body/node_modules/http-errors/index.js:225:37
+      1  100.0%          Eval: ~<anonymous> /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/raw-body/node_modules/http-errors/index.js:1:1
+      1  100.0%            LazyCompile: ~Module._compile internal/modules/cjs/loader.js:1017:37
+      1    5.9%      LazyCompile: ~storeHeader _http_outgoing.js:500:21
+      1  100.0%        LazyCompile: ~processHeader _http_outgoing.js:484:23
+      1  100.0%          LazyCompile: ~_storeHeader _http_outgoing.js:360:22
+      1  100.0%            LazyCompile: ~_implicitHeader _http_client.js:335:67
+      1    5.9%      LazyCompile: ~pp$3.parseSubscripts /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/babylon/lib/index.js:3507:33
+      1  100.0%        LazyCompile: ~pp$3.parseExprSubscripts /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/babylon/lib/index.js:3490:37
+      1  100.0%          LazyCompile: ~pp$3.parseMaybeUnary /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/babylon/lib/index.js:3446:33
+      1  100.0%            LazyCompile: ~pp$3.parseExprOps /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/babylon/lib/index.js:3401:30
+      1    5.9%      LazyCompile: ~isUint32 internal/validators.js:34:18
+      1  100.0%        LazyCompile: ~readFileSync fs.js:374:22
+      1  100.0%          LazyCompile: ~read /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-load/index.js:68:26
+      1  100.0%            LazyCompile: ~read /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug/lib/index.js:137:20
+      1    5.9%      LazyCompile: ~createSocket _http_agent.js:296:53
+      1  100.0%        LazyCompile: ~addRequest _http_agent.js:225:49
+      1  100.0%          LazyCompile: ~ClientRequest _http_client.js:89:23
+      1  100.0%            LazyCompile: ~request http.js:49:17
+      1    5.9%      LazyCompile: *compileAttrs /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-attrs/index.js:22:22
+      1  100.0%        LazyCompile: *attrs /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-code-gen/index.js:797:18
+      1  100.0%          LazyCompile: ~visitAttributes /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-code-gen/index.js:777:28
+      1  100.0%            LazyCompile: *visitTag /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-code-gen/index.js:521:21
+      1    5.9%      LazyCompile: *addText /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-lexer/index.js:462:21
+      1  100.0%        LazyCompile: ~text /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-lexer/index.js:574:17
+      1  100.0%          LazyCompile: *callLexerFunction /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-lexer/index.js:1444:31
+      1  100.0%            LazyCompile: *advance /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-lexer/index.js:1465:20
+      1    5.9%      Eval: ~<anonymous> /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/uglify-js/tools/node.js:1:1
+      1  100.0%        LazyCompile: ~Module._compile internal/modules/cjs/loader.js:1017:37
+      1  100.0%          LazyCompile: ~Module._extensions..js internal/modules/cjs/loader.js:1072:37
+      1  100.0%            LazyCompile: ~Module.load internal/modules/cjs/loader.js:916:33
+      2    5.3%    T __ZN2v88internal27Builtin_FunctionConstructorEiPmPNS0_7IsolateE
+      2  100.0%      LazyCompile: ~map :10020:17
+      2  100.0%        Eval: ~<anonymous> :9572:10
+      2  100.0%          Eval: ~<anonymous> :1:20
+      2  100.0%            Eval: ~<anonymous> /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/uglify-js/tools/node.js:1:1
+      2    5.3%    T __ZN2v88internal17Builtin_JsonParseEiPmPNS0_7IsolateE
+      1   50.0%      LazyCompile: ~readPackage internal/modules/cjs/loader.js:240:21
+      1  100.0%        LazyCompile: ~resolveExports internal/modules/cjs/loader.js:422:24
+      1  100.0%          LazyCompile: ~Module._findPath internal/modules/cjs/loader.js:444:28
+      1  100.0%            LazyCompile: ~Module._resolveFilename internal/modules/cjs/loader.js:796:35
+      1   50.0%      LazyCompile: ~parse /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-parser/index.js:10:15
+      1  100.0%        LazyCompile: ~parse /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug/lib/index.js:101:21
+      1  100.0%          LazyCompile: ~loadString /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-load/index.js:40:34
+      1  100.0%            LazyCompile: *<anonymous> /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-load/index.js:13:29
+      1    2.6%    T __ZN2v88internal21Builtin_JsonStringifyEiPmPNS0_7IsolateE
+      1  100.0%      LazyCompile: ~lex /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-lexer/index.js:10:13
+      1  100.0%        LazyCompile: ~lex /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug/lib/index.js:89:19
+      1  100.0%          LazyCompile: ~loadString /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-load/index.js:40:34
+      1  100.0%            LazyCompile: ~compileBody /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug/lib/index.js:81:21
+      1    2.6%    T __ZN2v88internal20Builtin_ArrayUnshiftEiPmPNS0_7IsolateE
+      1  100.0%      LazyCompile: ~walkAST /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-walk/index.js:4:17
+      1  100.0%        LazyCompile: ~walkAST /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-walk/index.js:4:17
+      1  100.0%          LazyCompile: ~<anonymous> /Users/nickfarni/Documents/GitHub/NodeDebuggingAndPerformance/node_modules/pug-walk/index.js:103:34
+      1  100.0%            T __ZN2v88internal8Compiler30GetSharedFunctionInfoForScriptEPNS0_7IsolateENS0_6HandleINS0_6StringEEERKNS1_13ScriptDetailsENS_19ScriptOriginOptionsEPNS_9ExtensionEPNS0_10ScriptDataENS_14ScriptCompiler14CompileOptionsENSF_13NoCacheReasonENS0_11NativesFlagE
+
